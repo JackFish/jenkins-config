@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.util.BuildData plugin="git@2.4.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@1.19.0">
+              <sha1>433310f92646a2e87666e3bd230e985a3316468b</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/JackFish/jfinal-weixin.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@2.4.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/jenkins/jobs/weixin/workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.slf4j:log4j-over-slf4j-1.7.12.jar</string>
+          <string>3aa22dbf9b970c1c69054aaba5054002</string>
+        </entry>
+        <entry>
+          <string>commons-codec:commons-codec-1.9.jar</string>
+          <string>75615356605c8128013da9e3ac62a249</string>
+        </entry>
+        <entry>
+          <string>com.jfinal:jfinal-2.0.jar</string>
+          <string>c4a5577fad50cf85146f742d0300e605</string>
+        </entry>
+        <entry>
+          <string>ch.qos.logback:logback-core-1.1.3.jar</string>
+          <string>94975ef44aa05c5067563875a783351e</string>
+        </entry>
+        <entry>
+          <string>ch.qos.logback:logback-classic-1.1.3.jar</string>
+          <string>19ec751a4fe907ddb204dff93103acbb</string>
+        </entry>
+        <entry>
+          <string>jaxen:jaxen-1.1.6.jar</string>
+          <string>a140517286b56eea981e188dcc3a13f6</string>
+        </entry>
+        <entry>
+          <string>com.jfinal:jfinal-weixin.war</string>
+          <string>88f2bf9a2a64e21c1c67a5a107b330db</string>
+        </entry>
+        <entry>
+          <string>dom4j:dom4j-1.6.1.jar</string>
+          <string>4d8f51d3fe3900efc6e395be48030d6d</string>
+        </entry>
+        <entry>
+          <string>org.sonatype.oss:oss-parent:oss-parent-7.pom</string>
+          <string>3e418cf7f2607bf359e6c514a992cb38</string>
+        </entry>
+        <entry>
+          <string>cglib:cglib-nodep-3.1.jar</string>
+          <string>92498b62ac5d9cbdf18b147f52cf6ecb</string>
+        </entry>
+        <entry>
+          <string>org.freemarker:freemarker-2.3.20.jar</string>
+          <string>1cd5a7e4bd4b179ca43dea393342ee71</string>
+        </entry>
+        <entry>
+          <string>com.jfinal:jfinal-weixin:pom.xml</string>
+          <string>22035ff5ee54d474a58442c529c15947</string>
+        </entry>
+        <entry>
+          <string>org.slf4j:slf4j-api-1.7.12.jar</string>
+          <string>68910bf95dbcf90ce5859128f0f75d1e</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>9</queueId>
+  <timestamp>1446987789591</timestamp>
+  <startTime>1446987789615</startTime>
+  <result>SUCCESS</result>
+  <duration>23367</duration>
+  <charset>US-ASCII</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/jenkins/jobs/weixin/workspace</workspace>
+  <hudsonVersion>1.636</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@2.4.0">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>zj_ren8</string>
+  </culprits>
+  <mavenVersionUsed>3.3.3</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

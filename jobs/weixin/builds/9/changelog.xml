@@ -1,0 +1,13 @@
+commit 433310f92646a2e87666e3bd230e985a3316468b
+tree 8c660e343da4a6143ff85d7b94d8f3716d6a2df1
+parent 039a0fafe546ebbd32e3ca21b9df58e91175fbab
+author Jack Zhou <zj_ren8@163.com> 2015-11-08 20:49:29 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 20:49:29 +0800
+
+    user logback
+
+
+
+:100644 100644 1df21623c0ae52a642999d833fb1e843720c6695 4d956a436873008f73569c953294dda33c10203b M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 f480298f2256f29477bf73350ef16d06cbc0f737 c4eaae9a8ae42c611a1b3daafa606e2189c0d3bd M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 943a1d06ac062ff733645019e50d6dd7bb9fda2f 8053cd38523d4ba9be5aead0daba72bda558240c M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java

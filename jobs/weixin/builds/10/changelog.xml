@@ -1,0 +1,2438 @@
+commit bb452e45af84afbc65da041fcbd2036a69f775ea
+tree fb92feb02b6b9de81babfe90a79d3163d595dda5
+parent 3191083f39048ee6562aacc0b1ad460c471f38ec
+author Jack Zhou <zj_ren8@163.com> 2015-11-08 20:49:29 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:22:03 +0800
+
+    user logback
+
+
+
+:100644 100644 54f749d9a55ae9dada3b119e19288b4ae12b7ca1 40b20ce710e72ee392c6e3ce1082c8171b8295eb M	pom.xml
+:100644 100644 d8e9419cf896684124633d6bd5d73f92681b410b 4d956a436873008f73569c953294dda33c10203b M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 baa007aeb323aa772ce12d6bbc9cf3fc63eeea5e c4eaae9a8ae42c611a1b3daafa606e2189c0d3bd M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 0e909c8c0a01898bfc3be0ade68fb4b1f5f7e05e 8c9235134b027fb320d82377dab220ddec477fec M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+commit 3191083f39048ee6562aacc0b1ad460c471f38ec
+tree 02d99b527f3216bb9120f47652555aa2c75ca13c
+parent 8bdf69ab8331e411ac753fa184b6a35403bcfa8d
+author Jack Zhou <zj_ren8@163.com> 2015-11-04 22:49:06 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:17:46 +0800
+
+    user logback
+
+
+
+:100644 100644 3675898a5a368cc9ad081f5743c4e6118215570d 54f749d9a55ae9dada3b119e19288b4ae12b7ca1 M	pom.xml
+commit 8bdf69ab8331e411ac753fa184b6a35403bcfa8d
+tree 869ceb2fea558f9d56c9432ebc840002c38d0e7e
+parent bfdbc7b2ced753e0498ef09cd5f5594b0c339a02
+author zj_ren8@163.com <zj_ren8@163.com> 2015-11-03 16:05:42 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:16:35 +0800
+
+    set encode to utf-8
+
+
+
+:100644 100644 cb7839dc5fe969425cce5dc905c7566ffc6bc04a d6b93e60c6807d3b3e6d75d79bc301971916bfc2 M	Dockerfile
+:100644 100644 a79dc135f4c243994ad9e7fd29c2cbd6dc8f4113 3675898a5a368cc9ad081f5743c4e6118215570d M	pom.xml
+commit bfdbc7b2ced753e0498ef09cd5f5594b0c339a02
+tree d3fbfd0f11933e984b8f417520ea32ea60a0f987
+parent 5a200908d02a6d10325ff11e72424d0ae064bee6
+author Jack Zhou <zj_ren8@163.com> 2015-11-03 08:41:32 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:16:33 +0800
+
+    remove ssh start
+
+
+
+:100644 100644 e7f4379c1afb8ea1aaff78d6ee66ff734857a934 cb7839dc5fe969425cce5dc905c7566ffc6bc04a M	Dockerfile
+commit 5a200908d02a6d10325ff11e72424d0ae064bee6
+tree ecb12e1e6bf640dbefb91223af7a1cbcc4db14bf
+parent 7bb16438f85c5a44a557f0cd4cecec4fce74f982
+author Jack Zhou <zj_ren8@163.com> 2015-11-02 22:48:45 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:16:31 +0800
+
+    clean file
+
+
+
+:100644 100644 8ae458ed8c3dbef30f2dec07b4a9acd8044687c7 e7f4379c1afb8ea1aaff78d6ee66ff734857a934 M	Dockerfile
+commit 7bb16438f85c5a44a557f0cd4cecec4fce74f982
+tree f9fcfeeb8c9c85718c5e46eef446bb0c944e92aa
+parent 7362e0bbf4cc31bb9bac2a6652ee56942ce46839
+author zj_ren8@163.com <zj_ren8@163.com> 2015-11-02 17:02:06 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:16:30 +0800
+
+    add ssh scripts
+
+
+
+:100644 100644 008ec10086d2620996a96449de27b076b70b0582 8ae458ed8c3dbef30f2dec07b4a9acd8044687c7 M	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 9c7244a06e085f81c9737570d367fa9080df4d5a A	ssh/run.sh
+:000000 100644 0000000000000000000000000000000000000000 f09aa987636d314a57b69cb4b2421d23fe84f6a5 A	ssh/set_root_pw.sh
+commit 7362e0bbf4cc31bb9bac2a6652ee56942ce46839
+tree 955c8abd7ea898658bd16aae5d7950366bb3f58c
+parent 861e7b47920b49d0fb4f639cd9c3c4fa177ce95e
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-30 14:28:47 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:16:28 +0800
+
+    use default maven version
+
+
+
+:100644 100644 28cf24bb81a1fda7182c43fb85707322eb6036ff a79dc135f4c243994ad9e7fd29c2cbd6dc8f4113 M	pom.xml
+commit 861e7b47920b49d0fb4f639cd9c3c4fa177ce95e
+tree 18685f175493bbe6aa5a2f3d99204120cbd36492
+parent 73726281d89ac9babc9ab02b2e6200ea598645c9
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-30 14:22:54 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:40 +0800
+
+    remove folder
+
+
+
+:100644 100644 d80650533d2e5f6b726354a941f1a4e2c5ae47c2 008ec10086d2620996a96449de27b076b70b0582 M	Dockerfile
+commit 73726281d89ac9babc9ab02b2e6200ea598645c9
+tree 7aa1779992f1e5a941c1da42db4b003daa2e80d4
+parent 4c6dcc37f99c999d535f411b14b9e10272897612
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 15:31:44 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:38 +0800
+
+    add debug for docker
+
+
+
+:100644 100644 4d51fb5fa11c8724ff89bc89ba7e081e0df44d08 d80650533d2e5f6b726354a941f1a4e2c5ae47c2 M	Dockerfile
+commit 4c6dcc37f99c999d535f411b14b9e10272897612
+tree 93f771f1b49b4a386437a5969dcd4cb02c5c5bf8
+parent 3b2a74f0572fea543627019796da8c5193d4204a
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 15:05:32 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:37 +0800
+
+    add debug for docker
+
+
+
+:100644 100644 4f548ed863195217eb123bf8036548a5a464338f 4d51fb5fa11c8724ff89bc89ba7e081e0df44d08 M	Dockerfile
+commit 3b2a74f0572fea543627019796da8c5193d4204a
+tree e4e233a7dc3501cbbaac0a100ff0fd3928bf954a
+parent 3ad4678bff875aa0f9f3d966143e59cfc305be01
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 14:59:32 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:35 +0800
+
+    add debug for docker
+
+
+
+:100644 100644 415904e6e4bf89bb53c3beed7f997dabc0ec95d8 4f548ed863195217eb123bf8036548a5a464338f M	Dockerfile
+commit 3ad4678bff875aa0f9f3d966143e59cfc305be01
+tree 19a8ecb04b0612cdd5b8fd038eea45c2aed7b6af
+parent f58eff06244645059106351851ffec59f4bf16f2
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 14:56:23 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:34 +0800
+
+    add debug for docker
+
+
+
+:100644 100644 16856121dd075487bc4cf7174beb8cb1e2226ba8 415904e6e4bf89bb53c3beed7f997dabc0ec95d8 M	Dockerfile
+commit f58eff06244645059106351851ffec59f4bf16f2
+tree ba5017ee56b4a956f233e3b841797a09640c932e
+parent 29f67a50c99a103ba7e5f8a0fd7ff21ef10322f4
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 13:37:16 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:32 +0800
+
+    add ssh
+
+
+
+:100644 100644 dc9442d8451e989cbb8eca59d0d598b16ab78e45 16856121dd075487bc4cf7174beb8cb1e2226ba8 M	Dockerfile
+commit 29f67a50c99a103ba7e5f8a0fd7ff21ef10322f4
+tree 532a33d2dd4638c02e11f60127fd44378cc76635
+parent 891912a7dd257565f47771d6996cd634ee7f7e65
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-29 13:37:16 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:30 +0800
+
+    add ssh
+
+
+
+:100644 100644 11436a5eb1dffa05b07ac00e17589b6a047eeaa7 dc9442d8451e989cbb8eca59d0d598b16ab78e45 M	Dockerfile
+:000000 100644 0000000000000000000000000000000000000000 49fbc054731540fa68b565e398d3574fde7366e9 A	sshRootPd.txt
+commit 891912a7dd257565f47771d6996cd634ee7f7e65
+tree fd6658a29cb1927a8c3b327aa6e18385670c3897
+parent c33fc6c133e07d683509d29e75793582ddcafc87
+author Jack Zhou <zj_ren8@163.com> 2015-10-28 13:56:13 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:29 +0800
+
+    add debug for docker
+
+
+
+:100644 100644 e652d83f77f8d6bac286539d403a71d5d45d9fd7 11436a5eb1dffa05b07ac00e17589b6a047eeaa7 M	Dockerfile
+commit c33fc6c133e07d683509d29e75793582ddcafc87
+tree e4a103665ace5a288d1b311da8af118cdffedec4
+parent af47e3dc33b10aeb95c8f53152e50be8f5b68be8
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-28 13:56:13 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:27 +0800
+
+    folder
+
+
+
+:100644 100644 3e415968c9c2231e7d310bc136d848f7dff2e78f e652d83f77f8d6bac286539d403a71d5d45d9fd7 M	Dockerfile
+commit af47e3dc33b10aeb95c8f53152e50be8f5b68be8
+tree cc33c0a7148182526cc17da2e11b883037f66a7a
+parent 96889cee172bb8ec3c57eba9dd1d03098dca8a9e
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-28 13:45:09 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:25 +0800
+
+    mvn set path
+
+
+
+:100644 100644 82a8bddc12bab4206b1161fc628374ffb2dc25c1 3e415968c9c2231e7d310bc136d848f7dff2e78f M	Dockerfile
+commit 96889cee172bb8ec3c57eba9dd1d03098dca8a9e
+tree 0f066838090f1f3c59d5f2f76a68eb3c97811d4f
+parent bc7ec4c42b04fe305fe4184fa5148850dc08a94e
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-28 13:25:20 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:24 +0800
+
+    add mvn install
+
+
+
+:100644 100644 c003a5e0124d4d6856d243ca361641879554217a 82a8bddc12bab4206b1161fc628374ffb2dc25c1 M	Dockerfile
+commit bc7ec4c42b04fe305fe4184fa5148850dc08a94e
+tree 2338bfa2456dccff79e2272b9f9e10ea61878676
+parent 876e397f33c08fcf91572b7ef3c11acddbee42fd
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-28 13:15:25 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:22 +0800
+
+    mvn set path
+
+
+
+:100644 100644 a0a14fc6e953fab97d013b59ae70c315fb85816f c003a5e0124d4d6856d243ca361641879554217a M	Dockerfile
+commit 876e397f33c08fcf91572b7ef3c11acddbee42fd
+tree fa2f8c232c5a3d7353be43169bd83a19cac646e0
+parent 95daf87eca62d28f9268260e28a212167463c95a
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-27 17:33:09 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:21 +0800
+
+    skip test
+
+
+
+:100644 100644 43ece1b404a35c5271c142d7158deb4a0912e406 a0a14fc6e953fab97d013b59ae70c315fb85816f M	Dockerfile
+commit 95daf87eca62d28f9268260e28a212167463c95a
+tree 6daa717f90d2b4e239223415a212a7d835038546
+parent 548ada7cae0f1bab069ccdf5e9787717a1322884
+author Jack Zhou <zj_ren8@163.com> 2015-10-27 16:55:25 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:19 +0800
+
+    Update Dockerfile
+
+    change to liunx format
+
+:100644 100644 d1b33880a63fce53f6b67652b8e1eb5f8d39e4a3 43ece1b404a35c5271c142d7158deb4a0912e406 M	Dockerfile
+commit 548ada7cae0f1bab069ccdf5e9787717a1322884
+tree 178cf51bfa3f5a76dd8f81e8e5b63338f3f06fa6
+parent 79b52b5d6d01e9d43c6d1055c11385265ddfd072
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-27 16:46:32 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:15 +0800
+
+    add the docker file
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 d1b33880a63fce53f6b67652b8e1eb5f8d39e4a3 A	Dockerfile
+commit 79b52b5d6d01e9d43c6d1055c11385265ddfd072
+tree f25e5bd7303cc3d0b50c03b66a5d59f013dd416e
+parent 76d35819e491356df3d2c13861f66bc330289bae
+author zj_ren8@163.com <zj_ren8@163.com> 2015-10-27 15:54:44 +0800
+committer Jack Zhou <zj_ren8@163.com> 2015-11-08 21:14:14 +0800
+
+    init version
+
+
+
+:100644 000000 55683f5e16ee500c11e69323db1fc3b55b1cd4ff 0000000000000000000000000000000000000000 D	.classpath
+:100644 100644 af1e9923c92edcb269c9cf6b860568e89989e795 65cb92d0c93ed31ce985f6f6287315c13724f84c M	.gitignore
+:100644 000000 405de37d2e0493c8d53ee5ee53d7cb64f65bfcef 0000000000000000000000000000000000000000 D	.project
+:100644 100644 7bc2735d0bfe27e60fcf87b422f0797f8995c55e f43fc407710d2de50cbc6e5981cee77cf818198c M	.settings/.jsdtscope
+:100644 100644 57bfcdabca0280c936a29ebc2b7a3bacd338979c 104c8ec9841459a0056ea94df27f71eea93f11dd M	.settings/org.eclipse.core.resources.prefs
+:100644 100644 62a317c860cbb9ffe7e52a941aaa2f1e7a778f76 69c31cd493ce042398e9fe93d22b72beb46afa88 M	.settings/org.eclipse.jdt.core.prefs
+:100644 100644 14b697b7bbb0d85e8d8ee19141a2a92d9ce211be f897a7f1cb2389f85fe6381425d29f0a9866fb65 M	.settings/org.eclipse.m2e.core.prefs
+:100644 100644 0ca561ac19685aeb10185ce7495a9047e4302940 9eab8140300df269acad1209f580b19d04cc1f17 M	.settings/org.eclipse.wst.common.component
+:100644 100644 7d91778d12711424816043ddba921351a58c020b 52729551057413ed946c5dd6d28fbc6e03812aff M	.settings/org.eclipse.wst.common.project.facet.core.xml
+:100644 100644 6f1cba68d5f82a12e1f80e8798437495567e43e7 04cad8cb752a9761c4e5167d0301d3a27674430f M	.settings/org.eclipse.wst.validation.prefs
+:100644 100644 356c80ebab06bc9e4fc29374a7c0ea7fcf1f1adc 63c483616700416f7a5c4fcb794efcaef41a545c R084	src/a_little_config.txt	res/a_little_config.txt
+:100644 100644 2a53cc1ec03dc2190bcd2110f1737b5556e16d7b b5ad7f61dde46f0a00300de237715d6044a2ac13 R090	src/ehcache.xml	res/ehcache.xml
+:000000 100644 0000000000000000000000000000000000000000 410e55c251e4d2fd959fad0a16b8f04259336556 A	res/logback.xml
+:100644 000000 2eec87165e1116c6b75a1e713b1088c641b653ad 0000000000000000000000000000000000000000 D	src/log4j.properties
+commit 76d35819e491356df3d2c13861f66bc330289bae
+tree b0bd020fc809102faf72f9e5a167e70822ec20d1
+parent 56199e95060168435eee7754b7c9793db3c5c85a
+author ������������3 <596392912@qq.com> 2015-11-08 20:37:03 +0800
+committer ������������3 <596392912@qq.com> 2015-11-08 20:37:03 +0800
+
+    ������ MediaApi ������������������access_token������
+
+
+
+:100644 100644 0b01d78b43bf492573fb6b4f288501adfe0a8e8b 85f0f75230f425b16b57490f62a66ac240dd093e M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 46e71118f8a463bc8622f92b7522813a6c043951 a396a3ea73b80f78c4e36ffa8babdf4c91e2f80c M	src/com/jfinal/weixin/sdk/api/CallbackIpApi.java
+:100644 100644 20decc056eb496d1a0588cf0aaf6399a12cb70c0 42f1fb9e8e127c77619de002979407ce488ac595 M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+:100644 100644 fb43512115a27f6c7b35f1fcd3088d79e31d649a 9801c66c71e90cf5d6a1a52a3cda22c7f4a488b7 M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+:100644 100644 85c1cd44d642726b3e1f7663eb5bac6de90a7e7f 151c5724f54b6942fd21ff6c77f9733b6703c93f M	src/com/jfinal/weixin/sdk/api/MediaApi.java
+:000000 100644 0000000000000000000000000000000000000000 ee7ab2a54598bc7a77cfaad88aed99ff7f2d6580 A	src/com/jfinal/weixin/sdk/api/MediaArticles.java
+:000000 100644 0000000000000000000000000000000000000000 52a0fd42617bbb96c2d0940501ab468a768e0e88 A	src/com/jfinal/weixin/sdk/api/MediaFile.java
+:100644 100644 80fd0ffaf35f873f08ed549e6bc0dde65c1c6beb 01c0a031137b4772a33276a63f1eb6a90042b81b M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 d6e69b295b5c447307d0254ed2c646666fa2e43c 217f621cc943b9263ab4503deb9b8237490634ab M	src/com/jfinal/weixin/sdk/api/QrcodeApi.java
+:100644 100644 6c6432ea5e1fe3090679c35e6dca54d0447680ab 0356e4d64e76d43486a39a7ef4ebac5ca0812142 M	src/com/jfinal/weixin/sdk/api/ShorturlApi.java
+:100644 100644 4f67807a588f7d01053c3fcba8d549a4f1f15440 c7c1d880c2f594558fab6bd91ff856c0b0e65728 M	src/com/jfinal/weixin/sdk/api/SnsApi.java
+:100644 100644 b1a941cbaf40c809a9c147d2a44b84c42d0add4f f41234b6edff3bd1c3de1f2ba917e7cd90f319f6 M	src/com/jfinal/weixin/sdk/api/TemplateMsgApi.java
+:100644 100644 1be31cab6d9b2da7f9eeda4fe36b0fa92bd737ca 3594be54ec59be71ce3a3d448aa0f09f6c836903 M	src/com/jfinal/weixin/sdk/api/UserApi.java
+:000000 100644 0000000000000000000000000000000000000000 59b7deae9eb6fbfc3a420f7532b9f842010d1c54 A	src/com/jfinal/weixin/sdk/utils/HttpUtis.java
+:000000 100644 0000000000000000000000000000000000000000 d7cb45734db2f797558bbe5d8af2f0992043db8f A	test/com/jfinal/weixin/sdk/api/MediaApiTest.java
+:100644 100644 4206b66c16754c6ce586156b88d58ed04d76059d 4c33b26d12ba99d2a9a52df7df09610349fba9e9 M	test/com/jfinal/weixin/sdk/api/TemplateMsgApiTest.java
+:100644 100644 88b76ee4f22e67b1417ae98637c560cd7ff4057f 4d198f74737c529a8adfca77710a6c54bac6387c M	webapp/jsp/test.jsp
+commit 56199e95060168435eee7754b7c9793db3c5c85a
+tree 8158819640e381feff5019e5a6a36cee4930089a
+parent 58b9ff2e361aa0e265b3c6ab52227a5111ac529d
+author ������������3 <596392912@qq.com> 2015-11-06 21:04:55 +0800
+committer ������������3 <596392912@qq.com> 2015-11-06 21:04:55 +0800
+
+    ������������
+
+
+
+:100644 100644 e497ee67ec03be19b122e54a935d200cb60bc83e 88b76ee4f22e67b1417ae98637c560cd7ff4057f M	webapp/jsp/test.jsp
+commit 58b9ff2e361aa0e265b3c6ab52227a5111ac529d
+tree 7ec50e14a42e73eb90cb26c204c7186a252d7746
+parent 9a0d4e383411956f40df25f555b117c843c8616a
+author ������������3 <596392912@qq.com> 2015-11-06 20:59:12 +0800
+committer ������������3 <596392912@qq.com> 2015-11-06 20:59:12 +0800
+
+    ������JS_SDK
+
+
+
+:100644 100644 c495f5bee01f8d24777673f4ecf31061c4c1557b 24c604f8eaac711695b3631c3581d7bde72e6748 M	src/com/jfinal/weixin/sdk/api/JsTicket.java
+:100644 100644 43f628fd9c1dad4f97f20a3efaa9d70a2402dbee fb43512115a27f6c7b35f1fcd3088d79e31d649a M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+:100644 100644 9f1a4319ced192fa6a889bee6fc064a2280f5e35 cfa7f7dc267ba9188ac09c13a7595dda66b140db M	webapp/jsp/js_sdk.jsp
+commit 9a0d4e383411956f40df25f555b117c843c8616a
+tree ba1e0924a06dcf5e17c0c6618ada05756f2f3e78
+parent 1174c89b130b7eebe7d73242170c54d7f003ff9c
+author ������������3 <596392912@qq.com> 2015-11-06 18:42:53 +0800
+committer ������������3 <596392912@qq.com> 2015-11-06 18:42:53 +0800
+
+    add
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 85c1cd44d642726b3e1f7663eb5bac6de90a7e7f A	src/com/jfinal/weixin/sdk/api/MediaApi.java
+:000000 100644 0000000000000000000000000000000000000000 9f1a4319ced192fa6a889bee6fc064a2280f5e35 A	webapp/jsp/js_sdk.jsp
+:000000 100644 0000000000000000000000000000000000000000 e497ee67ec03be19b122e54a935d200cb60bc83e A	webapp/jsp/test.jsp
+commit 1174c89b130b7eebe7d73242170c54d7f003ff9c
+tree c87aa2d5df4e663de80bf965f367b0149ff8220c
+parent ef45492fe3e6e94713659b7d05de394b2b5601d9
+author ������������3 <596392912@qq.com> 2015-11-03 22:22:59 +0800
+committer ������������3 <596392912@qq.com> 2015-11-03 22:22:59 +0800
+
+    ������������������������������
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 85c9921f56508b446da241034c054982bdd1d5ef A	src/com/jfinal/weixin/sdk/api/PaymentApi.java
+:000000 100644 0000000000000000000000000000000000000000 d97b240270d5f9cc632373f03e5782ae85209c3a A	test/com/jfinal/weixin/sdk/api/PaymentApiTest.java
+commit ef45492fe3e6e94713659b7d05de394b2b5601d9
+tree 497f977bb852e5f0b245121abc6724993bbcee53
+parent 36429e33b3d17a8b4234ca6d803943d17a5c8334
+author ������������3 <596392912@qq.com> 2015-11-03 21:50:57 +0800
+committer ������������3 <596392912@qq.com> 2015-11-03 21:50:57 +0800
+
+    /n to /r/n
+
+
+
+:100644 100644 6359bb14ea816905a8d161eb6b4b1a7e75363232 28e6aa8252db0bcc6c859d8092202d8e13e29662 M	LICENSE
+:100644 100644 1ea052f307f4454f49412e0003727ab226d57b0e cbb543f43000bf52a1a7aacaec9252949a686b6c M	README.md
+:100644 100644 b07c902f0f14f82e4940d97f13aa5105ec8e35f9 28cf24bb81a1fda7182c43fb85707322eb6036ff M	pom.xml
+:100644 100644 9fe28f1d45b7bf02475539aa53dc50e6c16812f5 9c9d65c6c22c75d7c5bd0d7d7ae23041b33f2498 M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 934b265cbd60a45c3ec7db49674a0242eb1210e6 0b01d78b43bf492573fb6b4f288501adfe0a8e8b M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 5eb4d9832bf3a7cde892f2580328c8be5ae7f649 6c7b814cab4239e0cfef9798626a90f994f9518c M	src/com/jfinal/weixin/sdk/api/ApiConfigKit.java
+:100644 100644 78dc5c00443dc7f547105cc137b29a6c0af9c565 20decc056eb496d1a0588cf0aaf6399a12cb70c0 M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+:100644 100644 3ee2163ce7e6daa602c0530e2f5295e838a367e1 73162132c0cb261251c76fee2c71b1153fcaf2a2 M	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+:100644 100644 a73301a30508fc7988ad62e291b4eef5ea946e53 f1490d139cba4e6d7b5fb5bdf27d7feccb37b06f M	src/com/jfinal/weixin/sdk/cache/DefaultAccessTokenCache.java
+:100644 100644 c468b6e522aa1da8ff5338d7528e5ecbc61ce9b9 81d2b0c02a17572b8d30f6ecd1c8295ee1bd2ee9 M	src/com/jfinal/weixin/sdk/cache/IAccessTokenCache.java
+:100644 100644 1cb3e125a990e17fc11fb9d0b2504a498bd92afa 8906e72ca8839d9329a2978ab4e2459e16f919de M	src/com/jfinal/weixin/sdk/cache/RedisAccessTokenCache.java
+:100644 100644 2774639d0ceb966afdb19b46bb18ac9405ac1be3 0e909c8c0a01898bfc3be0ade68fb4b1f5f7e05e M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+:100644 100644 fe0a1ca582f6e042bf61fba413573106879cfc84 4d0de6a525c16504961e6f442015cc65812f5c56 M	src/com/jfinal/weixin/sdk/kit/PaymentKit.java
+:100644 100644 88369bc2be5d1d328f110008392ce30862f79726 61c2e8900ffe3382a0025f752793547e8d544756 M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:100644 100644 1194ece39227f1bdb3ac85b1bc8fc987cadd50c2 9a5672aabbf656a8083c61afaa7905610be0e7b6 M	src/com/jfinal/weixin/sdk/msg/in/event/InMenuEvent.java
+:100644 100644 c9aaa5d9a1b5e6894428f2e5e2d095a01d02fc66 b6f57ea63e564dd3d80f3d1e44fd97ca4fec27e4 M	src/com/jfinal/weixin/sdk/msg/in/event/InVerifyFailEvent.java
+:100644 100644 c13a4c13e7c557cad6ef0b72a9c3a91c2fc48057 9bd12ee5a31ec9bb4dcabc030c66f762dd0bcb69 M	src/com/jfinal/weixin/sdk/msg/in/event/InVerifySuccessEvent.java
+:100644 100644 644e935c6d86567ac85b1017de04eb1b075853e4 6f39c6950d100a8db11f8160d608cf64ba93301a M	src/com/jfinal/weixin/sdk/msg/in/event/ScanCodeInfo.java
+:100644 100644 d63617c125409d3d64a26568980089224071fceb 4fa904f1f20d6ed51df6a340a29e77b200a4c2d8 M	src/com/jfinal/weixin/sdk/utils/RetryUtils.java
+:100644 100644 36793e89d8ceb531de81a73af98f3d5fc79c925b 7972eb8691a8c104c9df6be5472177621f6a2371 M	test/com/jfinal/weixin/sdk/api/AccessTokenApiTest.java
+:100644 100644 3730473f7fe130c7c6c1f667c7f633e89e66aaa5 798d071b87425fd054a4c9121ea37cf0d398f3ec M	test/com/jfinal/weixin/sdk/msg/XMLMsgTest.java
+:100644 100644 f9cb916cf8e136de2c97588a31f4d932c628f62c b8f5cd950bc55e3a17d5d9d33fc00483e164a8e2 M	webapp/WEB-INF/web.xml
+commit 36429e33b3d17a8b4234ca6d803943d17a5c8334
+tree 3c9a69e4ef595cd73dc3217db96df596fb91616d
+parent 9967b0d9bcc1653646c1acd1b4a339b8b0e8eb46
+author ������������3 <596392912@qq.com> 2015-11-03 17:17:58 +0800
+committer ������������3 <596392912@qq.com> 2015-11-03 17:18:42 +0800
+
+    update menu event
+
+
+
+:100644 100644 a2d655fb51319eff9f6f5693d09befce641c1252 b07c902f0f14f82e4940d97f13aa5105ec8e35f9 M	pom.xml
+:100644 100644 12c1f841a676c75b0bf5972a6adfa78fe0c013aa 3ee2163ce7e6daa602c0530e2f5295e838a367e1 M	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+:100644 100644 466ff0ebb290d9380c9d701232706760ce7f1d57 2774639d0ceb966afdb19b46bb18ac9405ac1be3 M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+:000000 100644 0000000000000000000000000000000000000000 fe0a1ca582f6e042bf61fba413573106879cfc84 A	src/com/jfinal/weixin/sdk/kit/PaymentKit.java
+:100644 100644 d57aeff1d71a9de461be464e92e6ed83e94fe13f 88369bc2be5d1d328f110008392ce30862f79726 M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:100644 100644 2f96c02591615420867af032bf76909ac98bc2af 1194ece39227f1bdb3ac85b1bc8fc987cadd50c2 M	src/com/jfinal/weixin/sdk/msg/in/event/InMenuEvent.java
+:000000 100644 0000000000000000000000000000000000000000 644e935c6d86567ac85b1017de04eb1b075853e4 A	src/com/jfinal/weixin/sdk/msg/in/event/ScanCodeInfo.java
+:000000 100644 0000000000000000000000000000000000000000 d63617c125409d3d64a26568980089224071fceb A	src/com/jfinal/weixin/sdk/utils/RetryUtils.java
+:000000 100644 0000000000000000000000000000000000000000 3730473f7fe130c7c6c1f667c7f633e89e66aaa5 A	test/com/jfinal/weixin/sdk/msg/XMLMsgTest.java
+commit f3905a114f4b636c5a2600874a78fda983713b40
+tree 777771cce3bdee74b33f8461a523dc9146dcefe2
+parent 84e38439705c80020dd6cdbe88442f52905fe065
+author ������������3 <596392912@qq.com> 2015-10-13 22:42:54 +0800
+committer ������������3 <596392912@qq.com> 2015-10-13 22:42:54 +0800
+
+    fix
+
+
+
+:100644 100644 ebd1ef01c2cad18b6da0b1e6a57e850c7a7d0561 43f628fd9c1dad4f97f20a3efaa9d70a2402dbee M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+commit b05922d55dfd9f09ad4cf4a2965a3a50c95ea190
+tree f44c260b0ea85e9a8d06e872961588f61dd319c1
+parent 6444682da755677c10e3d714e3a7b86e6e1676a7
+author unas <unas@qq.com> 2015-10-12 20:11:38 +0800
+committer unas <unas@qq.com> 2015-10-12 20:11:38 +0800
+
+    ������������������������������������
+
+
+
+:100644 100644 6f16c8e06478e2986cd09ed63c3f08c15f8207a4 d8e9419cf896684124633d6bd5d73f92681b410b M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit 6444682da755677c10e3d714e3a7b86e6e1676a7
+tree 6ea937579fdc5f23af0cb7469db8977bef641adc
+parent 84e38439705c80020dd6cdbe88442f52905fe065
+author unas <unas@qq.com> 2015-10-12 19:52:27 +0800
+committer unas <unas@qq.com> 2015-10-12 19:52:27 +0800
+
+    ������������������������������������
+
+
+
+:100644 100644 755429eee24e85633b86fd55a7f3034d687d477e 6f16c8e06478e2986cd09ed63c3f08c15f8207a4 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 b3fde79f5a43b971b58093c05f520be6eeb917d3 baa007aeb323aa772ce12d6bbc9cf3fc63eeea5e M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 d3711a435501b578ec70034a3897f8054386a66a d500758537b0a9947ef6092ac3eee56a34cef93a M	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+:100644 100644 afdf334be9689f16172417c39ce7f387d124f70b d57aeff1d71a9de461be464e92e6ed83e94fe13f M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:000000 100644 0000000000000000000000000000000000000000 c9aaa5d9a1b5e6894428f2e5e2d095a01d02fc66 A	src/com/jfinal/weixin/sdk/msg/in/event/InVerifyFailEvent.java
+:000000 100644 0000000000000000000000000000000000000000 c13a4c13e7c557cad6ef0b72a9c3a91c2fc48057 A	src/com/jfinal/weixin/sdk/msg/in/event/InVerifySuccessEvent.java
+commit 84e38439705c80020dd6cdbe88442f52905fe065
+tree 14b7a5e7189bb0656ad3fafd00fac4d468e27ef3
+parent cd1541322f13ba81136a9f7d4e217771337d5388
+author ������������3 <596392912@qq.com> 2015-09-28 18:35:58 +0800
+committer ������������3 <596392912@qq.com> 2015-09-28 18:35:58 +0800
+
+    update
+
+
+
+:100644 100644 d1a5e8daf6e661d3a0494bd13eafa18a7f5e22ef 1ea052f307f4454f49412e0003727ab226d57b0e M	README.md
+commit cd1541322f13ba81136a9f7d4e217771337d5388
+tree c79492c29f23ffcf38cd169e841ead550d46decc
+parent 32eae318a9815e5699f27e5a79e7c6d6982f34f5
+author ������������3 <596392912@qq.com> 2015-09-26 00:14:07 +0800
+committer ������������3 <596392912@qq.com> 2015-09-26 00:14:07 +0800
+
+    ������ js_api
+
+
+
+:100644 100644 1e0c17993a6796b022037d8f03adfc9a30f3df2a 934b265cbd60a45c3ec7db49674a0242eb1210e6 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 c1c7ae09d74be64ada7927a473c7e91778cd2418 5eb4d9832bf3a7cde892f2580328c8be5ae7f649 M	src/com/jfinal/weixin/sdk/api/ApiConfigKit.java
+:000000 100644 0000000000000000000000000000000000000000 c495f5bee01f8d24777673f4ecf31061c4c1557b A	src/com/jfinal/weixin/sdk/api/JsTicket.java
+:100644 100644 e353c0ce9354cd4b74258843e44f99f8025c10eb ebd1ef01c2cad18b6da0b1e6a57e850c7a7d0561 M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+:100644 100644 ec2a80725b89dc62a2772d463e4bfbe81a14adb4 a73301a30508fc7988ad62e291b4eef5ea946e53 M	src/com/jfinal/weixin/sdk/cache/DefaultAccessTokenCache.java
+:100644 100644 461a03c3ad70bdcb879b6c3883fb0fd3dba0503d c468b6e522aa1da8ff5338d7528e5ecbc61ce9b9 M	src/com/jfinal/weixin/sdk/cache/IAccessTokenCache.java
+:100644 100644 7501bf33a4a1d6574ec5eda8f44954402c889fee 1cb3e125a990e17fc11fb9d0b2504a498bd92afa M	src/com/jfinal/weixin/sdk/cache/RedisAccessTokenCache.java
+:100644 100644 1220a8136cbbd45b80d14c1d01cf3a54d379dc7b 36793e89d8ceb531de81a73af98f3d5fc79c925b M	test/com/jfinal/weixin/sdk/api/AccessTokenApiTest.java
+:100644 100644 e1220ac6aa14cf34620f981a73e2f564cbdccecf 11279d89740c533b164811e19bdb335f401cbf2b M	test/com/jfinal/weixin/sdk/api/JsTicketApiTest.java
+commit 32eae318a9815e5699f27e5a79e7c6d6982f34f5
+tree f6897ce658bb8e9695370d4c5f1c7d315303c563
+parent 57494711460d4fd30a2638149d19576a61cf5397
+author ������������3 <596392912@qq.com> 2015-09-09 23:58:08 +0800
+committer ������������3 <596392912@qq.com> 2015-09-09 23:58:08 +0800
+
+    ���������������������������������
+
+
+
+:100644 100644 74650fe2af885abca8e27e974e5b69d9c6cd53a2 78dc5c00443dc7f547105cc137b29a6c0af9c565 M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+:000000 100644 0000000000000000000000000000000000000000 af67fb3b0b784a2e0b8d15ad8016c7a4dafde612 A	src/com/jfinal/weixin/sdk/api/TemplateData.java
+:000000 100644 0000000000000000000000000000000000000000 56d32f396ec3f029f6805718a5f55e7176286bf2 A	test/com/jfinal/weixin/sdk/api/CustomServiceApiTest.java
+:000000 100644 0000000000000000000000000000000000000000 4206b66c16754c6ce586156b88d58ed04d76059d A	test/com/jfinal/weixin/sdk/api/TemplateMsgApiTest.java
+commit 57494711460d4fd30a2638149d19576a61cf5397
+tree 01d07863d79e230a0e500f0e8bdb2a115ad0bb6e
+parent 0c6078b2f0cc03a22191303059ab4023593bf1d7
+author ������������3 <596392912@qq.com> 2015-09-09 14:26:51 +0800
+committer ������������3 <596392912@qq.com> 2015-09-09 14:26:51 +0800
+
+    update
+
+
+
+:100644 100644 880d5ff963b73336b5630a42ae8616d48d2e3569 74650fe2af885abca8e27e974e5b69d9c6cd53a2 M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+commit 0c6078b2f0cc03a22191303059ab4023593bf1d7
+tree 5e9da5172b71b27d27935a17c8c68e959c388899
+parent e09f36a5ae12a05b61d34878c17ed6e6339b3de8
+author ������������3 <596392912@qq.com> 2015-09-09 14:11:12 +0800
+committer ������������3 <596392912@qq.com> 2015-09-09 14:11:12 +0800
+
+    ������������
+
+
+
+:100644 100644 b66a70220c4d73312863d585364da053ed69103c 880d5ff963b73336b5630a42ae8616d48d2e3569 M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+commit e09f36a5ae12a05b61d34878c17ed6e6339b3de8
+tree fea27319d42c360f91ff79422d6d53c74093355e
+parent b0469c444f6f479aca685dffc67abb3232ab9568
+author ������������3 <596392912@qq.com> 2015-09-07 14:51:50 +0800
+committer ������������3 <596392912@qq.com> 2015-09-07 14:51:50 +0800
+
+    update
+
+
+
+:100644 100644 ebcfc6dacc7c30019fb6f6ef50c40fb12ad5f838 d1a5e8daf6e661d3a0494bd13eafa18a7f5e22ef M	README.md
+commit 012662f38db6c0031cdfa776464e9b8d44257a70
+tree 9d261477bc7914de6c81b8a682291c72fd14fd87
+parent 78769c344d4802318d50f32bde578c45d88fb4dd
+author ������������3 <596392912@qq.com> 2015-08-27 17:57:41 +0800
+committer ������������3 <596392912@qq.com> 2015-08-27 17:57:41 +0800
+
+    #9 ������������
+
+
+
+:100644 100644 b60d6c6d9f73f21ee0af0ecb0dddf4d09427c956 1e0c17993a6796b022037d8f03adfc9a30f3df2a M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+commit 78769c344d4802318d50f32bde578c45d88fb4dd
+tree 1346a6e0f93c7eee7ed9c10dfadf21ad06caf93c
+parent 161c358b539823b57cef64181df80cc35005c552
+author ������������3 <596392912@qq.com> 2015-08-27 17:48:31 +0800
+committer ������������3 <596392912@qq.com> 2015-08-27 17:48:31 +0800
+
+    # 9 AccessToken cache������������������������reids������������������������cache���
+
+
+
+:100644 100644 1eab6927183fc78c061d4c56e3d763ddd3f08599 a2d655fb51319eff9f6f5693d09befce641c1252 M	pom.xml
+:100644 100644 05dc5ca28a26ca976eb82d6235e772d5d95abe72 9fe28f1d45b7bf02475539aa53dc50e6c16812f5 M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 c5a5203d66840607404bba5f6c71d8678f4b6bd9 b60d6c6d9f73f21ee0af0ecb0dddf4d09427c956 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 de58e996758cf0b20f1bf0a534b5c117347585bb c1c7ae09d74be64ada7927a473c7e91778cd2418 M	src/com/jfinal/weixin/sdk/api/ApiConfigKit.java
+:000000 100644 0000000000000000000000000000000000000000 ec2a80725b89dc62a2772d463e4bfbe81a14adb4 A	src/com/jfinal/weixin/sdk/cache/DefaultAccessTokenCache.java
+:000000 100644 0000000000000000000000000000000000000000 461a03c3ad70bdcb879b6c3883fb0fd3dba0503d A	src/com/jfinal/weixin/sdk/cache/IAccessTokenCache.java
+:000000 100644 0000000000000000000000000000000000000000 7501bf33a4a1d6574ec5eda8f44954402c889fee A	src/com/jfinal/weixin/sdk/cache/RedisAccessTokenCache.java
+:100644 100644 126e5f780a6e0226b5db4512b8f95b613d2793a1 1220a8136cbbd45b80d14c1d01cf3a54d379dc7b M	test/com/jfinal/weixin/sdk/api/AccessTokenApiTest.java
+commit 161c358b539823b57cef64181df80cc35005c552
+tree 9b7fef45e78196666a91093e077564f1d19814e9
+parent f2dcc6a27943e0f496116cef52e897314c9f60be
+author unas <unas@qq.com> 2015-08-25 18:58:00 +0800
+committer ������������3 <596392912@qq.com> 2015-08-27 16:35:14 +0800
+
+    ������������������������������������������������������������
+
+
+
+:100644 100644 412ce1e957cb97c643dc830e2152ef3fd2ca1b81 d3711a435501b578ec70034a3897f8054386a66a M	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+commit 1e87d8c2bb93a3aa8e15264811c9eb2d8d07fdc2
+tree 9b7fef45e78196666a91093e077564f1d19814e9
+parent f2dcc6a27943e0f496116cef52e897314c9f60be
+author unas <unas@qq.com> 2015-08-25 18:58:00 +0800
+committer unas <unas@qq.com> 2015-08-25 18:58:00 +0800
+
+    ������������������������������������������������������������
+
+
+
+:100644 100644 412ce1e957cb97c643dc830e2152ef3fd2ca1b81 d3711a435501b578ec70034a3897f8054386a66a M	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+commit 3965b9c0bcd7d1997de0593d94eed2c31dba3c21
+tree 510e7a91bbc685395c97097ab67392b5d579e139
+parent 025711fd985c13c42bcee3adad4924b5c2b522cd
+author unas <unas@qq.com> 2015-08-25 18:39:12 +0800
+committer unas <unas@qq.com> 2015-08-25 18:39:12 +0800
+
+    ������������������������������������������������������
+
+
+
+:100644 100644 e1082e165dfebead13aab8f896ab7d982fdd184e 412ce1e957cb97c643dc830e2152ef3fd2ca1b81 M	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+commit fa301f71b2b653b223e8408719e6f6f34fddfa57
+tree 48e75b23e2c02f16a8389587a309cd3f326834f0
+parent 73e113015f5b64a9b0fc32c8fc2af6fe58ac9fd5
+author James <jfinal@126.com> 2015-08-18 22:30:27 +0800
+committer James <jfinal@126.com> 2015-08-18 22:30:27 +0800
+
+    \n ������ \r\n
+
+
+
+:100644 100644 9c0aceb69a4ec3aec073c372b416db2e622ffa7e 126e5f780a6e0226b5db4512b8f95b613d2793a1 M	test/com/jfinal/weixin/sdk/api/AccessTokenApiTest.java
+:100644 100644 cea1a6926448d9738323d8d13a26f2faa1d2db0e e1220ac6aa14cf34620f981a73e2f564cbdccecf M	test/com/jfinal/weixin/sdk/api/JsTicketApiTest.java
+:100644 100644 87ecdf7e59f9936335b13f8ee63655ea7458c658 bfe17102ce230a1f56cdfa561af3df75b0d9f64a M	test/com/jfinal/weixin/sdk/encrypt/Program.java
+:100644 100644 250fd60614322c9d95d3bf6e7c4853e54f7ec316 13434ef6390a3fc9e8c4848bb3e80f6a7a46d05e M	test/com/jfinal/weixin/sdk/encrypt/WXBizMsgCryptTest.java
+:100644 100644 2043b619be0cbfbb3b4de9c1744be5f385054206 e7e34fb5826838f07aa20e41359500bfc389cf61 M	test/com/jfinal/weixin/sdk/msg/InMsgParserTest.java
+:100644 100644 b0c07f98bfc1800a128b71527d4c084924f59521 8d5d4af97fc8ae17224170b1e2186a2ebf6b5abe M	test/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilderTest.java
+commit 73e113015f5b64a9b0fc32c8fc2af6fe58ac9fd5
+tree 2a57df9d4e8414a7ae2169cb5e3761050ee29b7f
+parent a764a90d54dc8a218c80a6f576bdb24586fcf01d
+author James <jfinal@126.com> 2015-08-18 22:14:25 +0800
+committer James <jfinal@126.com> 2015-08-18 22:14:25 +0800
+
+    \n ������ \r\n
+
+
+
+:100644 100644 104c8ec9841459a0056ea94df27f71eea93f11dd 57bfcdabca0280c936a29ebc2b7a3bacd338979c M	.settings/org.eclipse.core.resources.prefs
+commit a764a90d54dc8a218c80a6f576bdb24586fcf01d
+tree f7676c821e8e46258aee50149a3a9e656f971d1d
+parent 96b873d99af63e658fb7fa8eee5d86336cc45b8d
+author James <jfinal@126.com> 2015-08-18 22:13:33 +0800
+committer James <jfinal@126.com> 2015-08-18 22:13:33 +0800
+
+    \n ������ \r\n
+
+
+
+:100644 100644 9eab8140300df269acad1209f580b19d04cc1f17 0ca561ac19685aeb10185ce7495a9047e4302940 M	.settings/org.eclipse.wst.common.component
+commit 96b873d99af63e658fb7fa8eee5d86336cc45b8d
+tree de8d79e82fc4932b125c6c82cf3932b20c3bf224
+parent 4ddd2e89dd96b484769d6700b7e408a07ccf3e25
+author James <jfinal@126.com> 2015-08-18 22:10:49 +0800
+committer James <jfinal@126.com> 2015-08-18 22:10:49 +0800
+
+    \n ������ \r\n
+
+
+
+:100644 100644 aecdbffc77a72da39cdfe412ba6fcfc2c7864d64 55683f5e16ee500c11e69323db1fc3b55b1cd4ff M	.classpath
+:100644 100644 e012618a4185a81f29fa73664677c8dc3d3e3bf5 af1e9923c92edcb269c9cf6b860568e89989e795 M	.gitignore
+:100644 100644 015c664466dc9fa324e2a29149dd23ae69fb1466 405de37d2e0493c8d53ee5ee53d7cb64f65bfcef M	.project
+:100644 100644 13be31442c3584f442bd5fa2215ed2feb722650a 1eab6927183fc78c061d4c56e3d763ddd3f08599 M	pom.xml
+commit 4ddd2e89dd96b484769d6700b7e408a07ccf3e25
+tree 41786ba238fb0eb4e6a77d23bedaabe9308b3cf6
+parent d31c7a35f5403446aef822fa58605a756a44c468
+author James <jfinal@126.com> 2015-08-18 22:07:41 +0800
+committer James <jfinal@126.com> 2015-08-18 22:07:41 +0800
+
+    \n ������ \r\n
+
+
+
+:100644 100644 8d58c94283699da930533165d46664e66add24af 755429eee24e85633b86fd55a7f3034d687d477e M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 a380bf593cbaea183d7999647f7dfabf3ce49c9a 05dc5ca28a26ca976eb82d6235e772d5d95abe72 M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 93090ca632f6cc1a0cbd5e9ee2810fb6989ba0c5 c5a5203d66840607404bba5f6c71d8678f4b6bd9 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 547405f9537b77b0cd7a6448d4c2ef84264a958e 4388f94f623cc2b92604c682223d278f27d0e72d M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 100644 148acc664bc4f6290289b7fa04b10561331b4f31 46e71118f8a463bc8622f92b7522813a6c043951 M	src/com/jfinal/weixin/sdk/api/CallbackIpApi.java
+:100644 100644 8eb4d6c34d9eca158012de6b9eb9dc9f639d984b b66a70220c4d73312863d585364da053ed69103c M	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+:100644 100644 ce67abc598a7bcff6b920bcae0219198799b6124 e353c0ce9354cd4b74258843e44f99f8025c10eb M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+:100644 100644 6cf3f214af5e15cc2b07827c56f3b7499a8d1663 d6e69b295b5c447307d0254ed2c646666fa2e43c M	src/com/jfinal/weixin/sdk/api/QrcodeApi.java
+:100644 100644 72d083d9fbfc8a024d9de42faaa6cc4e3b2ef791 84a1867006545bbcd2c4c3b6a696a1398af57142 M	src/com/jfinal/weixin/sdk/api/ReturnCode.java
+:100644 100644 b9de4bfa50b560cef8dadb826fc0977e05b2c024 6c6432ea5e1fe3090679c35e6dca54d0447680ab M	src/com/jfinal/weixin/sdk/api/ShorturlApi.java
+:100644 100644 15b82c9978b2160b976b35c45ab03aebc0baedce 1cb0c53e10097ae862e08d0c8a28d1652ea0514c M	src/com/jfinal/weixin/sdk/api/SnsAccessToken.java
+:100644 100644 e967f6281b12a9fa9c9bb8447a12aec2470f8b7e 12c1f841a676c75b0bf5972a6adfa78fe0c013aa M	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+:100644 100644 26fcad0afb4242d1d0b6fc39b8ede7e019b84465 4f67807a588f7d01053c3fcba8d549a4f1f15440 M	src/com/jfinal/weixin/sdk/api/SnsApi.java
+:100644 100644 f074ef2758c2fb3428e7972cbcefe3c8e201ad9e b3fde79f5a43b971b58093c05f520be6eeb917d3 M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 1777557242a959a6abb730beefcfd40acf8181a6 afdf334be9689f16172417c39ce7f387d124f70b M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:100644 100644 6366289281f41b95e596c494684109f2509914ff 9e8029dcd995842328d74f2e6b0cc04433d8cdb6 M	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+:100644 100644 e1968cf63cf8ccb45511ed74a7ca728191a6221a 488146153ac6f0e6f915a19d38cdcc91d654af51 M	src/com/jfinal/weixin/sdk/msg/in/InShortVideoMsg.java
+:100644 100644 48f3f9c77365473a05caee05adade7cb7aa78f5e 1d03256bf984791c23684fe3baf41372b061e465 M	src/com/jfinal/weixin/sdk/msg/in/event/EventInMsg.java
+:100644 100644 823aecb3485c5f55b5900a775aed9d59ae0d0235 87340a859a29d2f8c76b9cb57fc32a5ee9108358 M	src/com/jfinal/weixin/sdk/msg/in/event/InCustomEvent.java
+:100644 100644 7e4da3706bd6aeaf5cdc73a52822b7c67ea82031 86995e51be382a435f1320f49f869ca1ca0020c7 M	src/com/jfinal/weixin/sdk/msg/in/event/InMassEvent.java
+:100644 100644 027d690f9609c82d086ce442324c1d9701c6f481 38fa507df8611c15adf0f49190d588eef5926ed7 M	src/com/jfinal/weixin/sdk/msg/in/event/InShakearoundUserShakeEvent.java
+:100644 100644 312a1ef3796efc114fbfac81449c7cbe65e4acdc c9c903fff4321d51e3e67ee3fa633b8c3d417557 M	src/com/jfinal/weixin/sdk/msg/out/OutCustomMsg.java
+:100644 100644 5b63e1c1632670d6105e479755d9abce9c7b6a9c 0d1e1a627cfd1e6e5a92fa244c09e2930b1c175b M	src/com/jfinal/weixin/sdk/utils/JsonUtils.java
+:100644 100644 e8219223f55d50609b34f6199955698e9f042d92 2a53cc1ec03dc2190bcd2110f1737b5556e16d7b M	src/ehcache.xml
+commit d31c7a35f5403446aef822fa58605a756a44c468
+tree 0d9925d6a1ed041d89fc4957eee589fb65942c90
+parent f6a86bbc95d7091aeba9b183964145fce322e845
+author ������������3 <596392912@qq.com> 2015-08-18 14:40:41 +0800
+committer ������������3 <596392912@qq.com> 2015-08-18 14:40:41 +0800
+
+    JsTicketApi���������������js-sdk������������������������
+
+
+
+:100644 100644 3cd5e1d6f9014205a8ad81ceab20339183049977 ce67abc598a7bcff6b920bcae0219198799b6124 M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+:100644 100644 d638b9c1a5810759b5b20d8d136ec9dbeb988a44 15b82c9978b2160b976b35c45ab03aebc0baedce M	src/com/jfinal/weixin/sdk/api/SnsAccessToken.java
+:000000 100644 0000000000000000000000000000000000000000 cea1a6926448d9738323d8d13a26f2faa1d2db0e A	test/com/jfinal/weixin/sdk/api/JsTicketApiTest.java
+commit f6a86bbc95d7091aeba9b183964145fce322e845
+tree b7875767dd4484a4ac9634ac3a7cc62e57813d80
+parent fdf2cdb63ce12522af84f2c0b640d02c2fd53152
+author ������������3 <596392912@qq.com> 2015-08-18 13:32:20 +0800
+committer ������������3 <596392912@qq.com> 2015-08-18 13:32:20 +0800
+
+    AccessToken������������
+
+
+
+:100644 100644 c26367b235d3a3a071857d57eff1a20b97d81dc8 a380bf593cbaea183d7999647f7dfabf3ce49c9a M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+commit 89c66327b3998b9c78734f56d8437423edbbd8d4
+tree d55ecbe6f4a817182767cfc9ceb7e9f4ef175589
+parent eb1dc4611c9303a29e1b4481551ecbb75d81991f
+author ������������3 <596392912@qq.com> 2015-08-17 18:36:39 +0800
+committer ������������3 <596392912@qq.com> 2015-08-17 18:36:39 +0800
+
+    @HGMrWang ������������������������������
+
+
+
+:100644 100644 df8b9ff8a85f2aae4a2f37c3c4e0fe66de4a3da1 8d58c94283699da930533165d46664e66add24af M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 a0f08eaa5392ec34a9b0eddc89dc2617a9dd08a4 f074ef2758c2fb3428e7972cbcefe3c8e201ad9e M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 1899d630d22d1cb5444031e894522eafe06e8590 1777557242a959a6abb730beefcfd40acf8181a6 M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:000000 100644 0000000000000000000000000000000000000000 027d690f9609c82d086ce442324c1d9701c6f481 A	src/com/jfinal/weixin/sdk/msg/in/event/InShakearoundUserShakeEvent.java
+:000000 100644 0000000000000000000000000000000000000000 2043b619be0cbfbb3b4de9c1744be5f385054206 A	test/com/jfinal/weixin/sdk/msg/InMsgParserTest.java
+commit 35439939289b1011b0697af1722ebc1d6c8dea55
+tree f2a18b6bbf057342de9107f187da2aefc4ed416a
+parent f91b2a04b35134a9a84de7605e0bc745be290bbf
+author unas <unas@qq.com> 2015-08-07 15:07:33 +0800
+committer unas <unas@qq.com> 2015-08-07 15:07:33 +0800
+
+    ������js_ticket API������������������
+
+
+
+:100644 100644 be0f042e8077b9293fa82cb15c1f4ac0b6bff040 3cd5e1d6f9014205a8ad81ceab20339183049977 M	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+commit eb1dc4611c9303a29e1b4481551ecbb75d81991f
+tree 78f5a4e9f0a369bff8a1ed4e404fea41fed14e61
+parent f91b2a04b35134a9a84de7605e0bc745be290bbf
+author ������������3 <596392912@qq.com> 2015-07-31 10:07:01 +0800
+committer ������������3 <596392912@qq.com> 2015-07-31 10:07:01 +0800
+
+    fixed #3 #4 ������������������jackson���������jackson������fastJson
+
+
+
+:100644 100644 1448de837f6b751562ea9be84e0146a9d3d243ea aecdbffc77a72da39cdfe412ba6fcfc2c7864d64 M	.classpath
+:100644 100644 1177cb1eaa060335bca42a3eef404c784442d160 e012618a4185a81f29fa73664677c8dc3d3e3bf5 M	.gitignore
+:100644 100644 2448f05b92fe76e9fe0e8374ff855ae92fff84c3 015c664466dc9fa324e2a29149dd23ae69fb1466 M	.project
+:000000 100644 0000000000000000000000000000000000000000 104c8ec9841459a0056ea94df27f71eea93f11dd A	.settings/org.eclipse.core.resources.prefs
+:100644 100644 b08c5fcb6b54cecfd1db2f6ae8a0c6d43189d1f1 9eab8140300df269acad1209f580b19d04cc1f17 M	.settings/org.eclipse.wst.common.component
+:100644 100644 847289cac18cd2bc7bad2ada9e7ed8f3618d87ca 13be31442c3584f442bd5fa2215ed2feb722650a M	pom.xml
+:100644 100644 76c2a5102a4a38a4168424f9ff3c4d6acfed3eb2 c26367b235d3a3a071857d57eff1a20b97d81dc8 M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 ca4769667f47b4b5040914c164855f45a118aeda 93090ca632f6cc1a0cbd5e9ee2810fb6989ba0c5 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 0334f2e1069d91816a9d06bb6c793e83fa1f5a2c 547405f9537b77b0cd7a6448d4c2ef84264a958e M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 100644 7dd494635f23168a4e5ab30d5a353ac74b59e0ad d638b9c1a5810759b5b20d8d136ec9dbeb988a44 M	src/com/jfinal/weixin/sdk/api/SnsAccessToken.java
+:100644 100644 1b961198d4c5300c5abf718ab63f36dd9b5e4762 6366289281f41b95e596c494684109f2509914ff M	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+:000000 100644 0000000000000000000000000000000000000000 5b63e1c1632670d6105e479755d9abce9c7b6a9c A	src/com/jfinal/weixin/sdk/utils/JsonUtils.java
+:000000 100644 0000000000000000000000000000000000000000 9c0aceb69a4ec3aec073c372b416db2e622ffa7e A	test/com/jfinal/weixin/sdk/api/AccessTokenApiTest.java
+:100644 100644 bfe17102ce230a1f56cdfa561af3df75b0d9f64a 87ecdf7e59f9936335b13f8ee63655ea7458c658 R097	src/com/jfinal/weixin/sdk/encrypt/Program.java	test/com/jfinal/weixin/sdk/encrypt/Program.java
+:100644 100644 13434ef6390a3fc9e8c4848bb3e80f6a7a46d05e 250fd60614322c9d95d3bf6e7c4853e54f7ec316 R097	src/com/jfinal/weixin/sdk/encrypt/WXBizMsgCryptTest.java	test/com/jfinal/weixin/sdk/encrypt/WXBizMsgCryptTest.java
+:000000 100644 0000000000000000000000000000000000000000 b0c07f98bfc1800a128b71527d4c084924f59521 A	test/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilderTest.java
+commit f91b2a04b35134a9a84de7605e0bc745be290bbf
+tree 5041587ec46bc4ac7a102662cb308bc86a108237
+parent 4f3caf8607b416a6e6ae1653c1e27163b3691a97
+author unas <unas@qq.com> 2015-07-17 14:07:34 +0800
+committer unas <unas@qq.com> 2015-07-17 14:07:34 +0800
+
+    ������SnsAccessToken������������������������������������������������
+
+
+
+:100644 100644 6d6c05b832de0b7f012e01efec7c74aa4ec9042a e967f6281b12a9fa9c9bb8447a12aec2470f8b7e M	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+:100644 100644 9d9b2997dfc4550bc689e9391ab5c6d2fcafef04 26fcad0afb4242d1d0b6fc39b8ede7e019b84465 M	src/com/jfinal/weixin/sdk/api/SnsApi.java
+commit 4f3caf8607b416a6e6ae1653c1e27163b3691a97
+tree 4d2407e478bb270bf64257427d2c4938c36a5768
+parent 3023048b6782569873f73a5577e3b518e35eafc9
+author unas <unas@qq.com> 2015-07-15 12:01:21 +0800
+committer unas <unas@qq.com> 2015-07-15 12:01:21 +0800
+
+    ������SnsAccessToken������������������������unionid������
+
+
+
+:100644 100644 a9675e9e4669e7a24d2b96ec1610a76f279a5942 7dd494635f23168a4e5ab30d5a353ac74b59e0ad M	src/com/jfinal/weixin/sdk/api/SnsAccessToken.java
+:100644 100644 c0d82b9b768106f9fb37b62b148700928ef9aae1 6d6c05b832de0b7f012e01efec7c74aa4ec9042a M	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+commit 3023048b6782569873f73a5577e3b518e35eafc9
+tree 2f2113a5c15853fa69d7a6dafc56bc9ca8067740
+parent fcaa7f75ac05b70af16ec683d3b01cc41cd01a1c
+author James <jfinal@126.com> 2015-07-07 13:50:52 +0800
+committer James <jfinal@126.com> 2015-07-07 13:50:52 +0800
+
+    pom.xml ������ jfinal_weixin ������ jfinal-weixin
+
+
+
+:100644 100644 2c52670d47eb368f764f1503f8ed4216c59fee9c 847289cac18cd2bc7bad2ada9e7ed8f3618d87ca M	pom.xml
+commit fcaa7f75ac05b70af16ec683d3b01cc41cd01a1c
+tree 29fa56dfa7cb0a23b25bbce576f3466fd3ce5e38
+parent 1db6b2bb192294e88669ad8880c91a88f6b8e13d
+author James <jfinal@126.com> 2015-07-03 19:21:02 +0800
+committer James <jfinal@126.com> 2015-07-03 19:21:02 +0800
+
+    [maven-release-plugin] prepare for next development iteration
+
+
+
+:100644 100644 6dc2cd3b0076e29000f3e85eedd46d18e7722278 2c52670d47eb368f764f1503f8ed4216c59fee9c M	pom.xml
+commit 1db6b2bb192294e88669ad8880c91a88f6b8e13d
+tree e85993bbcd674ed01a1a6fa3e9bb313e9aad8adf
+parent 4edf98ea12bdb137927ba91e0f07e579d18d7e42
+author James <jfinal@126.com> 2015-07-03 19:20:55 +0800
+committer James <jfinal@126.com> 2015-07-03 19:20:55 +0800
+
+    [maven-release-plugin] prepare release jfinal-weixin-1.4
+
+
+
+:100644 100644 e48accbcc75ebacc376a3e80d5f49413f3989c3a 6dc2cd3b0076e29000f3e85eedd46d18e7722278 M	pom.xml
+commit 4edf98ea12bdb137927ba91e0f07e579d18d7e42
+tree 2e9b16936500f89c100c2098b64cfb643f1feeb7
+parent d4826134991a8313db89dbefe07090ad08e3509f
+author James <jfinal@126.com> 2015-07-03 19:18:55 +0800
+committer James <jfinal@126.com> 2015-07-03 19:18:55 +0800
+
+    jfinal weixin 1.4 release ^_^
+
+
+
+:100644 100644 cc74de86c6b3e046b82a4b369bfb7565ed6fa2ff 48f3f9c77365473a05caee05adade7cb7aa78f5e M	src/com/jfinal/weixin/sdk/msg/in/event/EventInMsg.java
+commit d4826134991a8313db89dbefe07090ad08e3509f
+tree e041220fea30ef52fc864f6beb917ef24c77b0cd
+parent d50da2e94bdc7fcafebaef5a181d4d23c6e83f36
+author James <jfinal@126.com> 2015-07-03 12:06:20 +0800
+committer James <jfinal@126.com> 2015-07-03 12:06:20 +0800
+
+    jfinal weixin 1.4 release, ������ ApiResult.create(...) ������
+
+
+
+:100644 100644 3833bc604191650ccf4ffabb37fe02dbadd8adb6 0334f2e1069d91816a9d06bb6c793e83fa1f5a2c M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+commit d50da2e94bdc7fcafebaef5a181d4d23c6e83f36
+tree 29155429459c543450f133e0d36ae3f184321c77
+parent 1d0779b11c6070e1b4c63d529c2bf219c51f6b85
+author James <jfinal@126.com> 2015-07-03 09:43:38 +0800
+committer James <jfinal@126.com> 2015-07-03 09:43:38 +0800
+
+    jfinal weixin 1.4 release ^_^
+
+
+
+:100644 100644 e29c20455ba513592b899c754aeea308970fde92 af733e21fa75ca21a8c5cd3d553e3c6d101bdee3 M	src/com/jfinal/weixin/sdk/msg/in/event/InLocationEvent.java
+commit 1d0779b11c6070e1b4c63d529c2bf219c51f6b85
+tree f9652d28a815df78cd5b04287c844dd4060b8456
+parent d10461df0e457e56c2bb95c362d10d6419cf4ba7
+author unas <unas@qq.com> 2015-07-02 11:35:45 +0800
+committer unas <unas@qq.com> 2015-07-02 11:35:45 +0800
+
+    ���������������������������API
+
+
+
+:100644 100644 e2e73a5c92a573309f6464eb284c72df3548bf8c abe1c2880191b9ac3659ebac6fa440720ef6af5b M	src/com/jfinal/weixin/demo/WeixinApiController.java
+:100644 100644 74bae18d4516b29b5d2ffa252bf58190535947a4 df8b9ff8a85f2aae4a2f37c3c4e0fe66de4a3da1 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit d10461df0e457e56c2bb95c362d10d6419cf4ba7
+tree dba6dbb593a369f4143c2179ef13094895486db6
+parent f72d765311284f92d6b91a0fb23ac858aceed165
+author unas <unas@qq.com> 2015-07-02 10:06:20 +0800
+committer unas <unas@qq.com> 2015-07-02 10:06:20 +0800
+
+    ������������������������������������
+
+
+
+:100644 100644 caca602f01685fc7866b43f763bf38fd36fb8c10 1be31cab6d9b2da7f9eeda4fe36b0fa92bd737ca M	src/com/jfinal/weixin/sdk/api/UserApi.java
+commit f72d765311284f92d6b91a0fb23ac858aceed165
+tree 55a24b9659e553cf7a374d65f56194d00d6c4124
+parent cd36dd2ca389e09e1714409324899edc4ea1efe2
+author unas <unas@qq.com> 2015-07-01 15:00:59 +0800
+committer unas <unas@qq.com> 2015-07-01 15:00:59 +0800
+
+    ������������������������������������api
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 be0f042e8077b9293fa82cb15c1f4ac0b6bff040 A	src/com/jfinal/weixin/sdk/api/JsTicketApi.java
+commit cd36dd2ca389e09e1714409324899edc4ea1efe2
+tree 05652e8b19172bd9f019386e24cde0eca71e8ae1
+parent 454793225a1a79740499ccd8b0717878c66bd00a
+author unas <unas@qq.com> 2015-07-01 14:50:08 +0800
+committer unas <unas@qq.com> 2015-07-01 14:50:08 +0800
+
+    ������������������������������������������������
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 a9675e9e4669e7a24d2b96ec1610a76f279a5942 A	src/com/jfinal/weixin/sdk/api/SnsAccessToken.java
+:000000 100644 0000000000000000000000000000000000000000 c0d82b9b768106f9fb37b62b148700928ef9aae1 A	src/com/jfinal/weixin/sdk/api/SnsAccessTokenApi.java
+:000000 100644 0000000000000000000000000000000000000000 9d9b2997dfc4550bc689e9391ab5c6d2fcafef04 A	src/com/jfinal/weixin/sdk/api/SnsApi.java
+commit 454793225a1a79740499ccd8b0717878c66bd00a
+tree 2cca788678b466e7f7069a71d112813c251f17f5
+parent 4583acb4c326d15f894afc306e6d585fcc7e226f
+author unas <unas@qq.com> 2015-06-30 19:44:11 +0800
+committer unas <unas@qq.com> 2015-06-30 19:44:11 +0800
+
+    ���������������
+
+
+
+:100644 100644 ed2c2a4f8a1946369c50432d519759395624d53c b1a941cbaf40c809a9c147d2a44b84c42d0add4f M	src/com/jfinal/weixin/sdk/api/TemplateMsgApi.java
+commit 004383d2644e8b13011925bd6fab6b64ec248319
+tree cd86f02e6d44e038312c8a571d38ceca5e42726c
+parent af117f51564f05a69b1b6f8b07abfd98b7f4a271
+author unas <unas@qq.com> 2015-06-30 13:05:32 +0800
+committer unas <unas@qq.com> 2015-06-30 13:05:32 +0800
+
+    ������������������������������
+
+
+
+:100644 100644 fa0accf8bbc46ae46da73f9c8f55eacd0e4d3cda 1899d630d22d1cb5444031e894522eafe06e8590 M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:100644 100644 68a7a745b3f5015940109ab265bad0fdda148ba5 823aecb3485c5f55b5900a775aed9d59ae0d0235 M	src/com/jfinal/weixin/sdk/msg/in/event/InCustomEvent.java
+commit 6cdc2518a244f72f3da011ccb6049ba541b8f347
+tree b6ce61719f3194174d05c6e31390f96bfc5e599f
+parent abfefb017843b7b28787db58302bdd5aca77bca1
+author ������������3 <596392912@qq.com> 2015-06-30 12:18:31 +0800
+committer ������������3 <596392912@qq.com> 2015-06-30 12:18:31 +0800
+
+    update
+
+
+
+:100644 100644 f5b0c58d4680d09ef72d4bd2b931e27bb4fa4395 ebcfc6dacc7c30019fb6f6ef50c40fb12ad5f838 M	README.md
+commit af117f51564f05a69b1b6f8b07abfd98b7f4a271
+tree 01e84e2b00dc45deabcf50467826e1304931c847
+parent abfefb017843b7b28787db58302bdd5aca77bca1
+author unas <unas@qq.com> 2015-06-30 12:06:44 +0800
+committer unas <unas@qq.com> 2015-06-30 12:06:44 +0800
+
+    ������������������������������������������
+
+
+
+:100644 100644 8241e7a405f1254af58f2caf98daaf4926e34e98 74bae18d4516b29b5d2ffa252bf58190535947a4 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 f39dc81e9344a678cbaea21176b1e7e385294fed a0f08eaa5392ec34a9b0eddc89dc2617a9dd08a4 M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 c7e9e4748fb581215a9dfc794ed749a548791acd fa0accf8bbc46ae46da73f9c8f55eacd0e4d3cda M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:000000 100644 0000000000000000000000000000000000000000 e1968cf63cf8ccb45511ed74a7ca728191a6221a A	src/com/jfinal/weixin/sdk/msg/in/InShortVideoMsg.java
+:000000 100644 0000000000000000000000000000000000000000 68a7a745b3f5015940109ab265bad0fdda148ba5 A	src/com/jfinal/weixin/sdk/msg/in/event/InCustomEvent.java
+commit abfefb017843b7b28787db58302bdd5aca77bca1
+tree 12aabd5334ffb749ea05055d178777524a0ebbe2
+parent ce24efac8ab4c6aa32c5e38f058da624fe6e9261
+author unas <unas@qq.com> 2015-06-29 18:04:20 +0800
+committer unas <unas@qq.com> 2015-06-29 18:04:20 +0800
+
+    ������Event������������������������
+
+
+
+:100644 100644 9af2a94eb26f3c5096f58a0c8fb7a06a3f93f218 c7e9e4748fb581215a9dfc794ed749a548791acd M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:000000 100644 0000000000000000000000000000000000000000 cc74de86c6b3e046b82a4b369bfb7565ed6fa2ff A	src/com/jfinal/weixin/sdk/msg/in/event/EventInMsg.java
+:100644 100644 dc4c09a461270654b832b2fdf129e7c90b1d0743 404556d3fe4680da66fb7e636eeee57468dc0c6e M	src/com/jfinal/weixin/sdk/msg/in/event/InFollowEvent.java
+:100644 100644 48bed4f8a1b1e441171c025e698c9244803db1a6 e29c20455ba513592b899c754aeea308970fde92 M	src/com/jfinal/weixin/sdk/msg/in/event/InLocationEvent.java
+:100644 100644 d5e3d3a8d58f19d0bc4198c5e364bec06e4ac526 7e4da3706bd6aeaf5cdc73a52822b7c67ea82031 M	src/com/jfinal/weixin/sdk/msg/in/event/InMassEvent.java
+:100644 100644 80a8bac650d9c13685b6a482ee4692f2698e8d56 2f96c02591615420867af032bf76909ac98bc2af M	src/com/jfinal/weixin/sdk/msg/in/event/InMenuEvent.java
+:100644 100644 e74623c8d00aff498fc4c6c29b3ff443b4ca5839 858082620abebb73edd47ca9052d9c592e9d17a5 M	src/com/jfinal/weixin/sdk/msg/in/event/InQrCodeEvent.java
+:100644 100644 de3a569ebd3deebe4bf65fc1db3f622fcab43a07 2f7696ea95579b612803ec974df3756206cec9ba M	src/com/jfinal/weixin/sdk/msg/in/event/InTemplateMsgEvent.java
+commit 8bf1a60758ffbfc0269e0690b5ac20241258227d
+tree b1b1e35eccb600ae430bc815d24834088cea4a0a
+parent c227d32525ba3c9d5e070b7c2e95d82a1bdfc6ad
+author unas <unas@qq.com> 2015-06-29 11:58:33 +0800
+committer unas <unas@qq.com> 2015-06-29 11:58:33 +0800
+
+    ���������������������IP������.
+    ���������������������������������������������������������������������IP������������������������������������������������������������������������������������IP���������������
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 148acc664bc4f6290289b7fa04b10561331b4f31 A	src/com/jfinal/weixin/sdk/api/CallbackIpApi.java
+commit c227d32525ba3c9d5e070b7c2e95d82a1bdfc6ad
+tree 070fcf380ebd74031b57ce020a7e50691445ea32
+parent 2370bdba7209ba3aac0c3cedd1393758c2221854
+author unas <unas@qq.com> 2015-06-29 11:57:45 +0800
+committer unas <unas@qq.com> 2015-06-29 11:57:45 +0800
+
+    ���������������API���������
+    ������������������������������������������������������������������������������������������PC���������������������������
+
+
+
+:100644 000000 3b60470f2b5ff8546855f3737963516b5d4121e9 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/CustomMsgApi.java
+:000000 100644 0000000000000000000000000000000000000000 8eb4d6c34d9eca158012de6b9eb9dc9f639d984b A	src/com/jfinal/weixin/sdk/api/CustomServiceApi.java
+commit 2370bdba7209ba3aac0c3cedd1393758c2221854
+tree de4a66c1699f772e04b9afc1a3684e6abde196de
+parent 30277be0883bd317b51052ccc7f33f8fff7b9a5e
+author unas <unas@qq.com> 2015-06-29 11:56:50 +0800
+committer unas <unas@qq.com> 2015-06-29 11:56:50 +0800
+
+    ���������������������������API������
+
+
+
+:100644 100644 5f665e1d4135a0e579f5726a86401187825911be 6cf3f214af5e15cc2b07827c56f3b7499a8d1663 M	src/com/jfinal/weixin/sdk/api/QrcodeApi.java
+commit 30277be0883bd317b51052ccc7f33f8fff7b9a5e
+tree 5ffba2b783dbf15ffe63a52a15eb30ef17db954c
+parent 54e01f67cd50d2fa7ac4d57408b4f480c5a15669
+author unas <unas@qq.com> 2015-06-29 11:56:01 +0800
+committer unas <unas@qq.com> 2015-06-29 11:56:01 +0800
+
+    ��������������������������������� API
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 b9de4bfa50b560cef8dadb826fc0977e05b2c024 A	src/com/jfinal/weixin/sdk/api/ShorturlApi.java
+commit b40ac021795edb6f6c796e89439db1e7bde10e86
+tree e58313e8869bf5d6abbef5df35de70a37d2dd68e
+parent 4e9622e4284b804c230bb3fe0a52b81e43541694
+author James <jfinal@126.com> 2015-06-27 09:52:01 +0800
+committer James <jfinal@126.com> 2015-06-27 09:52:01 +0800
+
+    [maven-release-plugin] prepare for next development iteration
+
+
+
+:100644 100644 9a99a1cc2be58398e2cee55047fc7069b0889eb0 e48accbcc75ebacc376a3e80d5f49413f3989c3a M	pom.xml
+commit 4e9622e4284b804c230bb3fe0a52b81e43541694
+tree 4abb8551d7547bbc19150fbe3903921c7090aae3
+parent 54e01f67cd50d2fa7ac4d57408b4f480c5a15669
+author James <jfinal@126.com> 2015-06-27 09:51:54 +0800
+committer James <jfinal@126.com> 2015-06-27 09:51:54 +0800
+
+    [maven-release-plugin] prepare release jfinal-weixin-1.3
+
+
+
+:100644 100644 1369b5028bee10329424cab28a52406bcb5a5055 9a99a1cc2be58398e2cee55047fc7069b0889eb0 M	pom.xml
+commit 54e01f67cd50d2fa7ac4d57408b4f480c5a15669
+tree 12a1e950a66df364f9d64852b1adb73b916e615a
+parent e61927dcaaa77961cabf594158a9c55584e05a69
+author James <jfinal@126.com> 2015-06-25 17:09:01 +0800
+committer James <jfinal@126.com> 2015-06-25 17:09:01 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 5c5fcb3cd2d4db66c31bd9a224a5820ac26537e3 8241e7a405f1254af58f2caf98daaf4926e34e98 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit e61927dcaaa77961cabf594158a9c55584e05a69
+tree efa4244605154697adba1d78e553bd0e4065ba58
+parent ae3bb9d193996e6fbc4123d58ebe5a86e9edb660
+author James <jfinal@126.com> 2015-06-25 16:46:17 +0800
+committer James <jfinal@126.com> 2015-06-25 16:46:17 +0800
+
+    jfinal weixin 1.3 ������
+
+
+
+:100644 100644 c17b56b292ee819f88a446a5089fa18b14fd19b2 5c5fcb3cd2d4db66c31bd9a224a5820ac26537e3 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit ae3bb9d193996e6fbc4123d58ebe5a86e9edb660
+tree 74f68bb526ed84452fce168c606616b2c4d849b0
+parent 040b11780d2d9a2608cfea82b4e5cfaccc9c9db9
+author James <jfinal@126.com> 2015-06-25 16:21:47 +0800
+committer James <jfinal@126.com> 2015-06-25 16:21:47 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 40fbbfe87145738cb4b473326e043d74fd4f3039 c17b56b292ee819f88a446a5089fa18b14fd19b2 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit 040b11780d2d9a2608cfea82b4e5cfaccc9c9db9
+tree d1d81007da547bf00c94fa32b0997bef8f02114e
+parent 51af530f76f870a7e476b7d1bed1f8b1682a0cea
+author James <jfinal@126.com> 2015-06-25 14:56:47 +0800
+committer James <jfinal@126.com> 2015-06-25 14:56:47 +0800
+
+    jfinal weixin 1.3 ������ ^_^
+
+
+
+:100644 100644 c7a0d3eb10d655cf58abcea470ae6f1d43426d61 f5b0c58d4680d09ef72d4bd2b931e27bb4fa4395 M	README.md
+commit 51af530f76f870a7e476b7d1bed1f8b1682a0cea
+tree 6eda5f8f3951cffa589cb67dab7d22054d3ad672
+parent 36d628d672f5cac35ad9a4e74e30a60919779874
+author unas <unas@qq.com> 2015-06-25 11:25:03 +0800
+committer unas <unas@qq.com> 2015-06-25 11:25:03 +0800
+
+    ��������������������� ������������������������ ���������������������������������
+    ���������������������������������������������������
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 3b60470f2b5ff8546855f3737963516b5d4121e9 A	src/com/jfinal/weixin/sdk/api/CustomMsgApi.java
+:000000 100644 0000000000000000000000000000000000000000 5f665e1d4135a0e579f5726a86401187825911be A	src/com/jfinal/weixin/sdk/api/QrcodeApi.java
+:100644 100644 d667ee0da45ac049a2e57f89313140225161a50f 9af2a94eb26f3c5096f58a0c8fb7a06a3f93f218 M	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+:100644 100644 a38181c188b7ecd15dc04b37f488bad399dcada0 1b961198d4c5300c5abf718ab63f36dd9b5e4762 M	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+:000000 100644 0000000000000000000000000000000000000000 d5e3d3a8d58f19d0bc4198c5e364bec06e4ac526 A	src/com/jfinal/weixin/sdk/msg/in/event/InMassEvent.java
+:000000 100644 0000000000000000000000000000000000000000 312a1ef3796efc114fbfac81449c7cbe65e4acdc A	src/com/jfinal/weixin/sdk/msg/out/OutCustomMsg.java
+commit ed702c90cc469461f732140c244a424541527451
+tree 6052289d80a864dc2dae2276ab52db343288143f
+parent cde09b0018a58bf5076516b5fa9f0638c2f0c339
+author James <jfinal@126.com> 2015-06-25 10:40:12 +0800
+committer James <jfinal@126.com> 2015-06-25 10:40:12 +0800
+
+    InMsgParaser ��������� InMsgParser
+
+
+
+:100644 100644 5b725f64cac5445e414540c6bf0e3927d9dc7383 f39dc81e9344a678cbaea21176b1e7e385294fed M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 d550d7d9a58dd14097d5b6745576eae6475597fe d667ee0da45ac049a2e57f89313140225161a50f R095	src/com/jfinal/weixin/sdk/msg/InMsgParaser.java	src/com/jfinal/weixin/sdk/msg/InMsgParser.java
+commit 4f60b152c9d42772d47dd7f6a5258e405c873d1b
+tree b18694cb242f8043d498136f18e26bae9f8daf48
+parent cde09b0018a58bf5076516b5fa9f0638c2f0c339
+author unas <unas@qq.com> 2015-06-25 10:24:01 +0800
+committer unas <unas@qq.com> 2015-06-25 10:24:01 +0800
+
+    ������������
+
+
+
+:100644 100644 f5b0c58d4680d09ef72d4bd2b931e27bb4fa4395 c7a0d3eb10d655cf58abcea470ae6f1d43426d61 M	README.md
+commit cde09b0018a58bf5076516b5fa9f0638c2f0c339
+tree b26d409c8b4ba065a6c254f885451e424383bc4e
+parent f0ca227511a7aa7a5287fbffffc9632ca59c70be
+author James <jfinal@126.com> 2015-06-24 15:40:45 +0800
+committer James <jfinal@126.com> 2015-06-24 15:40:45 +0800
+
+    ��������� jfinal 2.0
+
+
+
+:100644 100644 fdcfe02a30f0312f620ebc7b973689eb2712d5b7 1177cb1eaa060335bca42a3eef404c784442d160 M	.gitignore
+:100644 100644 dc0892a3256d025ec612eb8524cea67e751d7838 62a317c860cbb9ffe7e52a941aaa2f1e7a778f76 M	.settings/org.eclipse.jdt.core.prefs
+:100644 100644 593353a0a35391cef5ed8c89bb91ab22092d5a28 7d91778d12711424816043ddba921351a58c020b M	.settings/org.eclipse.wst.common.project.facet.core.xml
+:100644 100644 1722a39b100178171acc3040b2d2a40c06615a39 1369b5028bee10329424cab28a52406bcb5a5055 M	pom.xml
+:100644 100644 1658450c3d9d43fdecd4fb11c523a3d3fe01d0aa 40fbbfe87145738cb4b473326e043d74fd4f3039 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 1b6df94d81339109f6c09ccbcf54dba4922a6504 80fd0ffaf35f873f08ed549e6bc0dde65c1c6beb M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 9150459f45d4989e5d5d52bf4293b07c23ec3521 29f83d535baace83b822c4fee46f1d037bc5857f M	src/com/jfinal/weixin/sdk/jfinal/ApiInterceptor.java
+:100644 100644 660be5ec8ba9e1c65476af5957d37f3ec48b854a 466ff0ebb290d9380c9d701232706760ce7f1d57 M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+:100644 100644 e9f777792072af299907520ef925bab220b0d22c b1e78f51eadf2040005d4b4d6ae95f8cf7e0dcaa M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+commit f0ca227511a7aa7a5287fbffffc9632ca59c70be
+tree 58acb8d21f0f722ecaf7780ea5700810d98230ad
+parent 36e551390bdfc522c34d9653398cb1aee8d1c484
+author James <jfinal@126.com> 2015-03-03 19:33:30 +0800
+committer James <jfinal@126.com> 2015-03-03 19:33:30 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 bfe2d99d565a53f21dd81cb0c658b0745ee1aca0 f5b0c58d4680d09ef72d4bd2b931e27bb4fa4395 M	README.md
+commit 36e551390bdfc522c34d9653398cb1aee8d1c484
+tree a220330bf71b1f8c3a9fe1d87c536523bc18545a
+parent 1685f353511379eed4e86033632c4f2febbdff1d
+author James <jfinal@126.com> 2015-03-02 22:19:50 +0800
+committer James <jfinal@126.com> 2015-03-02 22:19:50 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 c3d02948921130599b35d3a5f16dfe2029218c41 1658450c3d9d43fdecd4fb11c523a3d3fe01d0aa M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+commit 1685f353511379eed4e86033632c4f2febbdff1d
+tree c1a06ae7bb14ce2ccdfe5fec0dcd7791164daff9
+parent c3a3cff13f4b3d83244af720f540917826a5e2f5
+author James <jfinal@126.com> 2015-01-14 17:45:48 +0800
+committer James <jfinal@126.com> 2015-01-14 17:45:48 +0800
+
+    ������ MsgInterceptor ������ MsgController
+
+
+
+:100644 100644 c39895e33838e9a2abeab130b5dded969d3dd611 660be5ec8ba9e1c65476af5957d37f3ec48b854a M	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+commit c3a3cff13f4b3d83244af720f540917826a5e2f5
+tree 69b99757005229e2932c61afc0bd20c15a650ed6
+parent 5a6f313e73352a9f259cfd503650a4bd3eb2d8bc
+author James <jfinal@126.com> 2014-12-25 01:33:22 +0800
+committer James <jfinal@126.com> 2014-12-25 01:33:22 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 a219ba23bd38a75c0886e62c6ecabc370fd187e7 bfe2d99d565a53f21dd81cb0c658b0745ee1aca0 M	README.md
+commit 5a6f313e73352a9f259cfd503650a4bd3eb2d8bc
+tree 69272b3fef308de578077b971b177a01a8779219
+parent a3e48e5438f3aa14d56889fe9f8f9d1414562c94
+author James <jfinal@126.com> 2014-12-25 01:22:50 +0800
+committer James <jfinal@126.com> 2014-12-25 01:22:50 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 89b49ecf5ef23a60d4bd75aeceb174b42807a414 c3d02948921130599b35d3a5f16dfe2029218c41 M	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 0f6cce117eef6e557db941c45840d27303e28818 ed2c2a4f8a1946369c50432d519759395624d53c M	src/com/jfinal/weixin/sdk/api/TemplateMsgApi.java
+:100644 100644 910af4ba2a8a9cc21765a959fdd79eea95e49314 5b725f64cac5445e414540c6bf0e3927d9dc7383 M	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 400d05413acf91484a7ec1ddddf94052a24ca9be e1082e165dfebead13aab8f896ab7d982fdd184e M	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+:100644 100644 d9a64755932053e9069e95ea990eaf3ef88a0dab d550d7d9a58dd14097d5b6745576eae6475597fe M	src/com/jfinal/weixin/sdk/msg/InMsgParaser.java
+:000000 100644 0000000000000000000000000000000000000000 de3a569ebd3deebe4bf65fc1db3f622fcab43a07 A	src/com/jfinal/weixin/sdk/msg/in/event/InTemplateMsgEvent.java
+commit a3e48e5438f3aa14d56889fe9f8f9d1414562c94
+tree 280a989ae9f761495e1c62b550a2e96b03d726c1
+parent 258c65c67a40e7964692e8c361991ecffb0018ee
+author James <jfinal@126.com> 2014-12-24 02:15:41 +0800
+committer James <jfinal@126.com> 2014-12-24 02:15:41 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 8341c7460a48de0546f788df6935d5efa3152b66 1722a39b100178171acc3040b2d2a40c06615a39 M	pom.xml
+commit 258c65c67a40e7964692e8c361991ecffb0018ee
+tree 8159fa53f9f5409fd3c1d5ce180849e3ae56405e
+parent d96ccf236b886a150aafd00a8f7b13267025923e
+author James <jfinal@126.com> 2014-12-24 01:48:11 +0800
+committer James <jfinal@126.com> 2014-12-24 01:48:11 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 585d02ef3e1490eeb593ffd1b9828ed18dc31e95 ca4769667f47b4b5040914c164855f45a118aeda M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+commit d96ccf236b886a150aafd00a8f7b13267025923e
+tree ca573c7ebbe158a1663d373b3f577bf445b8d3e9
+parent 747b4eff49a03d802590b7a23f825a1916616214
+author James <jfinal@126.com> 2014-12-24 01:32:50 +0800
+committer James <jfinal@126.com> 2014-12-24 01:32:50 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 890c3c7e6d314dfc7fd0b51f3931d9df7b2c99d0 847e2d9b0cc50fac6a7070dfe1f167eac6dadbf2 M	"src/com/jfinal/weixin/sdk/encrypt/\345\277\205\350\257\273.txt"
+commit 747b4eff49a03d802590b7a23f825a1916616214
+tree d670992f4db998e5b2009adbb95f17682363766d
+parent 9d097895d039b27c3a2e239044c35d2077c0956c
+author James <jfinal@126.com> 2014-12-24 01:27:37 +0800
+committer James <jfinal@126.com> 2014-12-24 01:27:37 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 eab98a5ef26c69fea6b82d0c105ea91e3a49d083 8341c7460a48de0546f788df6935d5efa3152b66 M	pom.xml
+commit 9d097895d039b27c3a2e239044c35d2077c0956c
+tree af0d7da0e36e17ae67466d7b33233d2e1081ca16
+parent 23467fe9b7cd3fdb7c939646f275b201a6405412
+author James <jfinal@126.com> 2014-12-24 01:26:22 +0800
+committer James <jfinal@126.com> 2014-12-24 01:26:22 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 22656af4c8dcef2fc14f9eaedad30c0aedacb230 29ba7e2c207d462a5854a6236fc9e0ca5405cad3 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 d94efa867de0cded7b1de2a498be5fa16bce4d35 585d02ef3e1490eeb593ffd1b9828ed18dc31e95 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+commit 23467fe9b7cd3fdb7c939646f275b201a6405412
+tree 3fd04e42f3682c4f1237768658576fb173ee758f
+parent 1338dc64765fa28014148ab0a4b8c86a43c17564
+author James <jfinal@126.com> 2014-12-24 00:58:40 +0800
+committer James <jfinal@126.com> 2014-12-24 00:58:40 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 60f3e47bd228fe2a307723935a6fba08218b34b3 fdcfe02a30f0312f620ebc7b973689eb2712d5b7 M	.gitignore
+commit 1338dc64765fa28014148ab0a4b8c86a43c17564
+tree 4a6787af419192a8562b95868ce6aedcff23aa5b
+parent 04ad5f362b880e6aaec8ac46973485884da40e28
+author James <jfinal@126.com> 2014-12-24 00:38:05 +0800
+committer James <jfinal@126.com> 2014-12-24 00:38:05 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 a43c76b840f47888bbc605bc027e305737417d0a eab98a5ef26c69fea6b82d0c105ea91e3a49d083 M	pom.xml
+:100644 100644 b7473f157ea392753bcb6e77756427a99ff3bc79 d94efa867de0cded7b1de2a498be5fa16bce4d35 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+commit 04ad5f362b880e6aaec8ac46973485884da40e28
+tree 7223a082bf569c12752856ba5bd19e997a6a438e
+parent 6274d329ff5fe22a7e65be8c5d31867bc044b6c5
+author James <jfinal@126.com> 2014-12-22 22:56:05 +0800
+committer James <jfinal@126.com> 2014-12-22 22:56:05 +0800
+
+    jfinal weixin 1.3 release ^_^
+
+
+
+:100644 100644 fffa80186181ccb3febf3e6cabe3e4df994fd4d7 22656af4c8dcef2fc14f9eaedad30c0aedacb230 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+commit 6274d329ff5fe22a7e65be8c5d31867bc044b6c5
+tree 0cc9387cd2d6969cd8f22e77cecb9e6b4dcf5f31
+parent b1f5b7d970d9dceb366cb003ac66d840085fb980
+author James <jfinal@126.com> 2014-12-21 00:26:22 +0800
+committer James <jfinal@126.com> 2014-12-21 00:26:22 +0800
+
+    jfinal 1.2 release
+
+
+
+:100644 100644 713c63ffa1cc117b2165167f336918f2aad298c0 a43c76b840f47888bbc605bc027e305737417d0a M	pom.xml
+commit b1f5b7d970d9dceb366cb003ac66d840085fb980
+tree 63a3a88e2f7e36997eb0f56e36e90b9bff62b9a4
+parent 5c53124f9f8fb3ea29486ec51e482f48fcdb7bd6
+author James <jfinal@126.com> 2014-12-21 00:10:11 +0800
+committer James <jfinal@126.com> 2014-12-21 00:10:11 +0800
+
+    [maven-release-plugin] prepare for next development iteration
+
+
+
+:100644 100644 5d203d44a0b4bb66fba33eb68520e31a9491d152 713c63ffa1cc117b2165167f336918f2aad298c0 M	pom.xml
+commit 5c53124f9f8fb3ea29486ec51e482f48fcdb7bd6
+tree a439581713616252cd9281d5d3f7cdbabbf7dd98
+parent dc450187e48a721fd6c4ab3bce306b3d985bc91f
+author James <jfinal@126.com> 2014-12-21 00:10:06 +0800
+committer James <jfinal@126.com> 2014-12-21 00:10:06 +0800
+
+    [maven-release-plugin] prepare release jfinal_weixin-1.2
+
+
+
+:100644 100644 7a431861831d8ce87957a67fa6ce83d2951da7f4 5d203d44a0b4bb66fba33eb68520e31a9491d152 M	pom.xml
+commit dc450187e48a721fd6c4ab3bce306b3d985bc91f
+tree c66fda5ba74682d701ed7141948e1ae5b8952858
+parent 701e25ee6b99024cd856fd997b520cd6c13efd94
+author James <jfinal@126.com> 2014-12-21 00:04:36 +0800
+committer James <jfinal@126.com> 2014-12-21 00:04:36 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 b8d0b863890bd30d0e6148a6af505e70a0867c79 7a431861831d8ce87957a67fa6ce83d2951da7f4 M	pom.xml
+commit 701e25ee6b99024cd856fd997b520cd6c13efd94
+tree 1260d5c0b5b3858689db80090f46a5ff44e258f4
+parent d3d53a748c25e16d7cc424e0e3cbbda3a99a9f8a
+author James <jfinal@126.com> 2014-12-21 00:02:38 +0800
+committer James <jfinal@126.com> 2014-12-21 00:02:38 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 9fc9c2ed35703f965c0bf66e602852b5cdf27388 b8d0b863890bd30d0e6148a6af505e70a0867c79 M	pom.xml
+commit d3d53a748c25e16d7cc424e0e3cbbda3a99a9f8a
+tree 4b26acf8acca215320d2b1ec1a63edf7549e61b7
+parent f7cc1f0508f3a4540e7ed6c2b03dc31a503699bf
+author James <jfinal@126.com> 2014-12-21 00:01:38 +0800
+committer James <jfinal@126.com> 2014-12-21 00:01:38 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 587f9ef3bdca96fa4cb7cb85f52631b5828d3e02 9fc9c2ed35703f965c0bf66e602852b5cdf27388 M	pom.xml
+commit f7cc1f0508f3a4540e7ed6c2b03dc31a503699bf
+tree a34c98bda0ae65704ba47e2c2976eb307bab78a9
+parent 965aa2c7caeb8e37e1946f04414826d5c5ba3d2f
+author James <jfinal@126.com> 2014-12-20 23:28:59 +0800
+committer James <jfinal@126.com> 2014-12-20 23:28:59 +0800
+
+    [maven-release-plugin] prepare release jfinal_weixin-1.2
+
+
+
+:100644 100644 9fc9c2ed35703f965c0bf66e602852b5cdf27388 587f9ef3bdca96fa4cb7cb85f52631b5828d3e02 M	pom.xml
+commit 965aa2c7caeb8e37e1946f04414826d5c5ba3d2f
+tree 4b26acf8acca215320d2b1ec1a63edf7549e61b7
+parent 1d93c49ea7c63e4602c95e83ff041afc19a52f25
+author James <jfinal@126.com> 2014-12-20 23:23:59 +0800
+committer James <jfinal@126.com> 2014-12-20 23:23:59 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 230e5c2f32b51d9093325303af9e77951cc08e8c 9fc9c2ed35703f965c0bf66e602852b5cdf27388 M	pom.xml
+commit 1d93c49ea7c63e4602c95e83ff041afc19a52f25
+tree f1014109de758ae5cc982553eb14d12d21dade31
+parent 75cbe32e35cf36d0cf21c1b9ac78fc281e9e2df0
+author James <jfinal@126.com> 2014-12-20 22:57:27 +0800
+committer James <jfinal@126.com> 2014-12-20 22:57:27 +0800
+
+    [maven-release-plugin] prepare release jfinal_weixin-1.2
+
+
+
+:100644 100644 cea30d9494df4e5e98f510a38499a33e6c7fbb2e 230e5c2f32b51d9093325303af9e77951cc08e8c M	pom.xml
+commit 75cbe32e35cf36d0cf21c1b9ac78fc281e9e2df0
+tree c44894c144efd7774e27c72148cf9ef1dadfb8e5
+parent 878a755d7496f4bee3a0799ff41c443429c2132a
+author James <jfinal@126.com> 2014-12-20 22:54:26 +0800
+committer James <jfinal@126.com> 2014-12-20 22:54:26 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 edb6aa02d41d28993a1986a0c1c538380378329d cea30d9494df4e5e98f510a38499a33e6c7fbb2e M	pom.xml
+commit 878a755d7496f4bee3a0799ff41c443429c2132a
+tree fbb74d0e65c8e913da56a719495d0bfcfb1dbf83
+parent 9163e49238504620edd06ed0467478873a802225
+author James <jfinal@126.com> 2014-12-20 22:28:59 +0800
+committer James <jfinal@126.com> 2014-12-20 22:28:59 +0800
+
+    jfinal weixin upload to maven center repository
+
+
+
+:100644 100644 d755b312b5e8f659213b34397f87de97a4d67cd5 edb6aa02d41d28993a1986a0c1c538380378329d M	pom.xml
+commit 9163e49238504620edd06ed0467478873a802225
+tree 9d58c820fe78f42d5a5665201984419ae4d7e8f0
+parent c68adf4df219cae63b32a313df8f55dcef8ab29a
+author James <jfinal@126.com> 2014-12-20 22:23:58 +0800
+committer James <jfinal@126.com> 2014-12-20 22:23:58 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 853abfce854f1feb1035b5435c27d20ee645a0f9 d755b312b5e8f659213b34397f87de97a4d67cd5 M	pom.xml
+:100644 100644 4cac672da533819139b591b2e0d90f4ecbc8eb12 356c80ebab06bc9e4fc29374a7c0ea7fcf1f1adc M	src/a_little_config.txt
+:000000 100644 0000000000000000000000000000000000000000 0f6cce117eef6e557db941c45840d27303e28818 A	src/com/jfinal/weixin/sdk/api/TemplateMsgApi.java
+:000000 100644 0000000000000000000000000000000000000000 9e512cfa07b1c4a60744f23d5b7b5133305eebd9 A	src/com/jfinal/weixin/sdk/kit/XmlBuilder.java
+commit c68adf4df219cae63b32a313df8f55dcef8ab29a
+tree b177e12f8abd4bda8d4a94ea514258e2b1e5fa25
+parent 0e7b31d1dbf1361bba17d7327f1375493fc8d032
+author James <jfinal@126.com> 2014-12-20 22:10:00 +0800
+committer James <jfinal@126.com> 2014-12-20 22:10:00 +0800
+
+    jfinal weixin 1.2 release
+
+
+
+:100644 100644 b7da99b1a98ab25541c2e9398fc4600e70bd0d86 853abfce854f1feb1035b5435c27d20ee645a0f9 M	pom.xml
+commit 0e7b31d1dbf1361bba17d7327f1375493fc8d032
+tree 61e3dce3906f644403611a3ab6115df169acc0b2
+parent b493c7ce6257fd18e188771ea15e6a3bc3131adf
+author James <jfinal@126.com> 2014-12-11 11:55:23 +0800
+committer James <jfinal@126.com> 2014-12-11 11:55:23 +0800
+
+    jfinal weixin 1.2 release ^_^
+
+
+
+:100644 100644 a86b8e654bd1aa140f107ce6d56cb51220f6952a b7da99b1a98ab25541c2e9398fc4600e70bd0d86 M	pom.xml
+commit b493c7ce6257fd18e188771ea15e6a3bc3131adf
+tree 8a795858214493c9e7e963bc2a6ded521d43239f
+parent b7f616778f2abe41421e9e0f26bd97f57b14e22b
+author James <jfinal@126.com> 2014-12-11 11:52:10 +0800
+committer James <jfinal@126.com> 2014-12-11 11:52:10 +0800
+
+    jfinal weixin 1.2 release ^_^
+
+
+
+:100644 100644 1121084dd1292fb84188887a8c663337778bb0e5 a219ba23bd38a75c0886e62c6ecabc370fd187e7 M	README.md
+commit b7f616778f2abe41421e9e0f26bd97f57b14e22b
+tree e05e82eccb1e1d8890c88d30a66e70df55869ff0
+parent 78311a8d2d238aedb4f76880acc2f249937d3271
+author James <jfinal@126.com> 2014-12-11 11:42:56 +0800
+committer James <jfinal@126.com> 2014-12-11 11:42:56 +0800
+
+    jfinal weixin 1.2 release ^_^
+
+
+
+:100644 100644 42476141b422c2e0d8964d4a5889b2cc57c18b07 1121084dd1292fb84188887a8c663337778bb0e5 M	README.md
+commit 78311a8d2d238aedb4f76880acc2f249937d3271
+tree 8fa429c32e5b16db5af8d920dca4e9660f74df9f
+parent f68691ea5df630d47674974e2423198269c39993
+author James <jfinal@126.com> 2014-12-11 10:50:54 +0800
+committer James <jfinal@126.com> 2014-12-11 10:50:54 +0800
+
+    jfinal wexin 1.2 release ^_^
+
+
+
+:100644 100644 9901391a0b4ed40c465979806e6a0f3353bba467 4cac672da533819139b591b2e0d90f4ecbc8eb12 M	src/a_little_config.txt
+:100644 000000 8ff34c87829755abdc6c4dd2276570f4bd8eba7e 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/demo/ApiController.java
+:000000 100644 0000000000000000000000000000000000000000 e2e73a5c92a573309f6464eb284c72df3548bf8c A	src/com/jfinal/weixin/demo/WeixinApiController.java
+:100644 100644 2c32f2b2d06436345202543767246de72209892c fffa80186181ccb3febf3e6cabe3e4df994fd4d7 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 7df588dec7f4449580e106df86b8fec5da7afedd 89b49ecf5ef23a60d4bd75aeceb174b42807a414 R087	src/com/jfinal/weixin/demo/DemoController.java	src/com/jfinal/weixin/demo/WeixinMsgController.java
+:100644 100644 d5ab2c57daefcdfac22bbda4ec9f2a7db05fd1b3 b7473f157ea392753bcb6e77756427a99ff3bc79 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 5c370ee022dd27eabab738207333bfb478ec29d9 1c675722326a0640fa4a17a75122ea04216c2155 M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:000000 100644 0000000000000000000000000000000000000000 de58e996758cf0b20f1bf0a534b5c117347585bb A	src/com/jfinal/weixin/sdk/api/ApiConfigKit.java
+:000000 100644 0000000000000000000000000000000000000000 6a2969fa650a58613460b8ae266709a598f4d70f A	src/com/jfinal/weixin/sdk/jfinal/ApiController.java
+:000000 100644 0000000000000000000000000000000000000000 9150459f45d4989e5d5d52bf4293b07c23ec3521 A	src/com/jfinal/weixin/sdk/jfinal/ApiInterceptor.java
+:100644 100644 30fc00b98eeb2b264a0b2b5fc68784cd1d05e2eb 910af4ba2a8a9cc21765a959fdd79eea95e49314 R089	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java	src/com/jfinal/weixin/sdk/jfinal/MsgController.java
+:100644 100644 778ca47ab164afe5be90103fdc5a47ea4eabfcbc 400d05413acf91484a7ec1ddddf94052a24ca9be R084	src/com/jfinal/weixin/sdk/jfinal/WeixinControllerAdapter.java	src/com/jfinal/weixin/sdk/jfinal/MsgControllerAdapter.java
+:100644 100644 408ddf6d87c3647bb2c77bf31008814993ce5ec1 c39895e33838e9a2abeab130b5dded969d3dd611 R061	src/com/jfinal/weixin/sdk/jfinal/WeixinInterceptor.java	src/com/jfinal/weixin/sdk/jfinal/MsgInterceptor.java
+:100644 100644 d5f37e37704b5906c0a0f4fbebc22309ac907f98 cbf7709e12d97554150db6182227b9bb3f37863e M	src/com/jfinal/weixin/sdk/kit/MsgEncryptKit.java
+:100644 100644 99aaba8612520823b3cb03369148b105ca5d8955 e9f777792072af299907520ef925bab220b0d22c M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+commit f68691ea5df630d47674974e2423198269c39993
+tree aa958e5c1011fe6c9cb1842edd07698998889fae
+parent aa132f7304fd5fce6d5701f4d4a7ecc005046cb5
+author James <jfinal@126.com> 2014-12-07 17:04:58 +0800
+committer James <jfinal@126.com> 2014-12-07 17:04:58 +0800
+
+    jfinal weixin 1.2 release ^_^
+
+
+
+:100644 100644 dd9dacc44047d33e16749fe2dde599a5fe849de4 3833bc604191650ccf4ffabb37fe02dbadd8adb6 M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+commit aa132f7304fd5fce6d5701f4d4a7ecc005046cb5
+tree a83f04b8ea0ed5bd5780093f049b253cb9437f7f
+parent 2306810f7c8cd5b52282eefa71214b5932218a9d
+author James <jfinal@126.com> 2014-12-04 11:47:35 +0800
+committer James <jfinal@126.com> 2014-12-04 11:47:35 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 f30f390bd8d9ce921db13b7d73f682f65657bec9 9901391a0b4ed40c465979806e6a0f3353bba467 M	src/a_little_config.txt
+commit 2306810f7c8cd5b52282eefa71214b5932218a9d
+tree 160270f85ce80428ae186f03acaf977284b6003e
+parent e80ad5d816bc7a3301f8f87294f063d1b253dc52
+author James <jfinal@126.com> 2014-12-04 11:44:10 +0800
+committer James <jfinal@126.com> 2014-12-04 11:44:10 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 d19369d0eef6943c351f6505ae3f42d421f5acbf 7df588dec7f4449580e106df86b8fec5da7afedd M	src/com/jfinal/weixin/demo/DemoController.java
+commit e80ad5d816bc7a3301f8f87294f063d1b253dc52
+tree 44de69814f915b44b29e2e8425726323bb9ca521
+parent 557b529894b0851f757d6f71d95edd20f1bb7028
+author James <jfinal@126.com> 2014-12-03 23:14:47 +0800
+committer James <jfinal@126.com> 2014-12-03 23:14:47 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 306596dee7d7deeb597de33a9d2f6d0c518a205e d5f37e37704b5906c0a0f4fbebc22309ac907f98 M	src/com/jfinal/weixin/sdk/kit/MsgEncryptKit.java
+commit 557b529894b0851f757d6f71d95edd20f1bb7028
+tree 974b5854f8a0c6169c3d8211aa0b32c8729ad84f
+parent bda218bb254cd3aebb35b6904cfb83a229982490
+author James <jfinal@126.com> 2014-12-03 21:34:45 +0800
+committer James <jfinal@126.com> 2014-12-03 21:34:45 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 1991f1479ac826355ad3222e8e6716faebc0d076 f30f390bd8d9ce921db13b7d73f682f65657bec9 M	src/a_little_config.txt
+:100644 100644 99af0bc4d172c9f25c4ec5e86b484e131fa4ebff 2c32f2b2d06436345202543767246de72209892c M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 1fbbe3c65a947851489a71dbc51b8afa6f2ef4fe 5c370ee022dd27eabab738207333bfb478ec29d9 M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:100644 100644 fa810cb7573fd9a6bb313e519ed2d7bf5dc7ca32 30fc00b98eeb2b264a0b2b5fc68784cd1d05e2eb M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 100644 3e03e11a75b38936d3c716f94cc993256a021de5 306596dee7d7deeb597de33a9d2f6d0c518a205e M	src/com/jfinal/weixin/sdk/kit/MsgEncryptKit.java
+commit bda218bb254cd3aebb35b6904cfb83a229982490
+tree d0bf37cdcaacf23addfd389e66dd6175519fdc95
+parent 8ac86fe4a61813aa064fa25936c2b3990aff2feb
+author James <jfinal@126.com> 2014-12-03 19:56:28 +0800
+committer James <jfinal@126.com> 2014-12-03 19:56:28 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 7d60eb8ca43e84f78c916ca1ce839a62687045e6 a86b8e654bd1aa140f107ce6d56cb51220f6952a M	pom.xml
+:100644 100644 e887e234230b27de84b493e76f1050800146c9ee 1fbbe3c65a947851489a71dbc51b8afa6f2ef4fe M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:000000 100644 0000000000000000000000000000000000000000 eb47db7c1e75a4707023aca70be6d62cacfaaa4d A	src/com/jfinal/weixin/sdk/encrypt/AesException.java
+:000000 100644 0000000000000000000000000000000000000000 626bb038b4dd7f6d097c204962623ff912bc17fc A	src/com/jfinal/weixin/sdk/encrypt/ByteGroup.java
+:000000 100644 0000000000000000000000000000000000000000 a2fe7c46e21ed2c86b6051bfe271c7672fb101cf A	src/com/jfinal/weixin/sdk/encrypt/PKCS7Encoder.java
+:000000 100644 0000000000000000000000000000000000000000 bfe17102ce230a1f56cdfa561af3df75b0d9f64a A	src/com/jfinal/weixin/sdk/encrypt/Program.java
+:000000 100644 0000000000000000000000000000000000000000 634918148d66d2e1c9f83baabf17c809a13d48a3 A	src/com/jfinal/weixin/sdk/encrypt/SHA1.java
+:000000 100644 0000000000000000000000000000000000000000 a625dc87745a6324faa45c076dee14f6663c01d8 A	src/com/jfinal/weixin/sdk/encrypt/WXBizMsgCrypt.java
+:000000 100644 0000000000000000000000000000000000000000 13434ef6390a3fc9e8c4848bb3e80f6a7a46d05e A	src/com/jfinal/weixin/sdk/encrypt/WXBizMsgCryptTest.java
+:000000 100644 0000000000000000000000000000000000000000 cc7892b1cd6268afb5cf8002bd00dffc7a9babee A	src/com/jfinal/weixin/sdk/encrypt/XMLParse.java
+:000000 100644 0000000000000000000000000000000000000000 86cbdf2fc35d6d8512b846552bf7d93983bb9e47 A	src/com/jfinal/weixin/sdk/encrypt/readme.txt
+:000000 100644 0000000000000000000000000000000000000000 890c3c7e6d314dfc7fd0b51f3931d9df7b2c99d0 A	"src/com/jfinal/weixin/sdk/encrypt/\345\277\205\350\257\273.txt"
+:000000 100644 0000000000000000000000000000000000000000 3e03e11a75b38936d3c716f94cc993256a021de5 A	src/com/jfinal/weixin/sdk/kit/MsgEncryptKit.java
+commit 8ac86fe4a61813aa064fa25936c2b3990aff2feb
+tree 262a5867a310a720a97ec3f0e4e6d4b2d6c53d58
+parent be15f2e5fcb827acf8f3366da1afa8348a4f08cc
+author James <jfinal@126.com> 2014-12-03 15:03:43 +0800
+committer James <jfinal@126.com> 2014-12-03 15:03:43 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 d6e27344fc8b9d9714c78542e3d797a88bbb54cf d5ab2c57daefcdfac22bbda4ec9f2a7db05fd1b3 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 92b03853c1804ff93b4c156e202eca1596973b34 dd9dacc44047d33e16749fe2dde599a5fe849de4 M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 100644 0d781d36bf10b6c4803ab275f5f67e7aa18df127 1b6df94d81339109f6c09ccbcf54dba4922a6504 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+commit be15f2e5fcb827acf8f3366da1afa8348a4f08cc
+tree 2ea1c4a7052459f9bd0bde65349858cc39cce91e
+parent 5b438a0d897ee7b4c9055eb41fc62be00ce70277
+author James <jfinal@126.com> 2014-12-03 13:15:30 +0800
+committer James <jfinal@126.com> 2014-12-03 13:15:30 +0800
+
+    ������ access_token ������������
+
+
+
+:100644 100644 59f9529fb0fe7a2d632481df53ebb65c6fa4fa28 d6e27344fc8b9d9714c78542e3d797a88bbb54cf M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 1f9afb73228206a0113757582595089e4943abe8 92b03853c1804ff93b4c156e202eca1596973b34 M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 100644 1b6df94d81339109f6c09ccbcf54dba4922a6504 0d781d36bf10b6c4803ab275f5f67e7aa18df127 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+commit 5b438a0d897ee7b4c9055eb41fc62be00ce70277
+tree e5b62e7c51f8e18b2a451f8aa0ee88e3a34760be
+parent ec6d626b3dd0438c1e3281a3c41ed19ea83994e0
+author James <jfinal@126.com> 2014-11-21 23:16:18 +0800
+committer James <jfinal@126.com> 2014-11-21 23:16:18 +0800
+
+    jfinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 352c313c6a0c2779afc866ce4fcd00ba9b0ab8d4 7d60eb8ca43e84f78c916ca1ce839a62687045e6 M	pom.xml
+commit ec6d626b3dd0438c1e3281a3c41ed19ea83994e0
+tree faffcd357a54a401414f55579500db0b348eacf2
+parent 26950138c3fb0fe30a6415b6e9b9865498265e6c
+author James <jfinal@126.com> 2014-11-17 20:57:15 +0800
+committer James <jfinal@126.com> 2014-11-17 20:57:15 +0800
+
+    JFinal Weixin 1.1 release ^_^
+
+
+
+:100644 000000 100bac7835874cbf1358127d0f98d0e156b10685 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/jfinal/NotAction.java
+:100644 100644 db8c54cd00c65b8168bf41d8f05b31d0ab4e3563 fa810cb7573fd9a6bb313e519ed2d7bf5dc7ca32 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 000000 f6846876aa2fa3f32a35ce5b3e40b6f57adad4e2 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/kit/EncryptionKit.java
+:100644 100644 a896e9aad00fe15591a2659a8b9114cbae26d535 99aaba8612520823b3cb03369148b105ca5d8955 M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+commit 26950138c3fb0fe30a6415b6e9b9865498265e6c
+tree cfc88486bd427c9b78037e41ebcadd42330aae7f
+parent 6eacdfbe9d088ba590431937bb0dc7c99f6171f6
+author James <jfinal@126.com> 2014-11-17 20:40:47 +0800
+committer James <jfinal@126.com> 2014-11-17 20:40:47 +0800
+
+    JFinal weixin 1.1 release ^_^
+
+
+
+:100644 100644 b2d409c699db9605c3efc03e30a7a901e4501ef3 99af0bc4d172c9f25c4ec5e86b484e131fa4ebff M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 7013b6685729b0ea61b6a7b0c1054690eec3784e 59f9529fb0fe7a2d632481df53ebb65c6fa4fa28 M	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 100644 403506631af71b098c5483595f2838b5f45499b6 1b6df94d81339109f6c09ccbcf54dba4922a6504 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 9dc526c6adee01093a4b77728b41aad91fe7d87a caca602f01685fc7866b43f763bf38fd36fb8c10 M	src/com/jfinal/weixin/sdk/api/UserApi.java
+:100644 100644 0c9709d4c007c0a63286e8f26f8187c9e1a9c6f3 db8c54cd00c65b8168bf41d8f05b31d0ab4e3563 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 000000 f04e0d58a9170e7461d475f44ca1996b697d8d35 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+:100644 000000 8fd0b3431ed4f33ab61fa607be56dcf7e5db9c7f 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/kit/PropKit.java
+commit 6eacdfbe9d088ba590431937bb0dc7c99f6171f6
+tree 37a0eb595e01d861ec839de93bdc83a253fdac9d
+parent 16932ccd2c22557abff8ccbcbf304ba7bda7b2d2
+author James <jfinal@126.com> 2014-11-09 17:57:39 +0800
+committer James <jfinal@126.com> 2014-11-09 17:57:39 +0800
+
+    ��������� jfinal 1.9 ^_^
+
+
+
+:100644 100644 49d941df256d950e0095772e8c3d60ae0e73b255 352c313c6a0c2779afc866ce4fcd00ba9b0ab8d4 M	pom.xml
+:100644 100644 787e2e701e684e3d6ddf7453022d3a8032bde230 1991f1479ac826355ad3222e8e6716faebc0d076 R077	webapp/WEB-INF/a_little_config.txt	src/a_little_config.txt
+:100644 100644 de24041828632f011a180a8e084957ad3e46c885 b2d409c699db9605c3efc03e30a7a901e4501ef3 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+commit 16932ccd2c22557abff8ccbcbf304ba7bda7b2d2
+tree ba3a0f7a7b2c9f9dceae1ac3d0313aacaf412d0b
+parent ed202f037b558f3d697dd27dafc9e9d29eed48c4
+author James <jfinal@126.com> 2014-10-31 10:17:17 +0800
+committer James <jfinal@126.com> 2014-10-31 10:17:17 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 05853b95cc50204c4bd11390b8a9087036757b45 f04e0d58a9170e7461d475f44ca1996b697d8d35 M	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+commit ed202f037b558f3d697dd27dafc9e9d29eed48c4
+tree a35b3f190436d43f471b5f75b68a69ca95c0fbab
+parent 355cc4c060a42e72f9a4912b386c0a038fbd241e
+author James <jfinal@126.com> 2014-10-29 22:52:31 +0800
+committer James <jfinal@126.com> 2014-10-29 22:52:31 +0800
+
+    JFinal Weixin release
+
+
+
+:100644 100644 b4e5583b9c99efe79e7216883f29d06c60ed68af 8ff34c87829755abdc6c4dd2276570f4bd8eba7e M	src/com/jfinal/weixin/demo/ApiController.java
+:100644 100644 4514f925b4ad6ec8b9ae18bc82f8a2d1ff0986ea d19369d0eef6943c351f6505ae3f42d421f5acbf M	src/com/jfinal/weixin/demo/DemoController.java
+commit 355cc4c060a42e72f9a4912b386c0a038fbd241e
+tree ce6343e8c6e7aca1846ace67eb23e1ee44e4642e
+parent 4b79a53ab332f46350975d7d3de28774956fa497
+author James <jfinal@126.com> 2014-10-29 22:50:33 +0800
+committer James <jfinal@126.com> 2014-10-29 22:50:33 +0800
+
+    jfinal weixin release
+
+
+
+:100644 100644 6f447e8bd86c5c7d787e2bdb731ad4a0ecaa91a1 d9a64755932053e9069e95ea990eaf3ef88a0dab M	src/com/jfinal/weixin/sdk/msg/InMsgParaser.java
+:100644 100644 67400dbc51d0db065ab60d0a678a2f98db64d5ee dea375eaab697d2114c4d3f565ea702c4e483873 M	src/com/jfinal/weixin/sdk/msg/in/speech_recognition/InSpeechRecognitionResults.java
+commit 4b79a53ab332f46350975d7d3de28774956fa497
+tree 680f3ec7c517730a852b2af5e57016038d799cd7
+parent 5e123b3c39ac09353654e2ee550b045ccd0b5a00
+author James <jfinal@126.com> 2014-10-28 21:44:12 +0800
+committer James <jfinal@126.com> 2014-10-28 21:44:12 +0800
+
+    jfinal weixin commit :)
+
+
+
+:100644 100644 788a370fc3b5023db6cc8c594786cef32a135f47 f6846876aa2fa3f32a35ce5b3e40b6f57adad4e2 M	src/com/jfinal/weixin/sdk/kit/EncryptionKit.java
+commit 5e123b3c39ac09353654e2ee550b045ccd0b5a00
+tree c341168597fda063158e2b43df7f355c8ec48e96
+parent 74a8cbafb31b32c338ee26394d06e28d4326867b
+author James <jfinal@126.com> 2014-10-23 11:31:57 +0800
+committer James <jfinal@126.com> 2014-10-23 11:31:57 +0800
+
+    jfinal weixin relase
+
+
+
+:100644 100644 88f4f251fe5b5929b9d3872929d7212f38e8a2a8 408ddf6d87c3647bb2c77bf31008814993ce5ec1 M	src/com/jfinal/weixin/sdk/jfinal/WeixinInterceptor.java
+commit 74a8cbafb31b32c338ee26394d06e28d4326867b
+tree 38c140108c67b07f010170fb8b5b1e85a3e8b5f3
+parent ddf56a2ab2acd7de81e0f2b2ccf3650f59d86e71
+author James <jfinal@126.com> 2014-10-22 22:49:50 +0800
+committer James <jfinal@126.com> 2014-10-22 22:49:50 +0800
+
+    jfinal weixin release
+
+
+
+:100644 000000 de6514359636f0ac41d3d76003923afb9f86fbb4 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/api_url.txt
+commit ddf56a2ab2acd7de81e0f2b2ccf3650f59d86e71
+tree 2c0efa5729f0aa390e6b21297608d70c288ba746
+parent ebb9da312bb8e0ebae7eabd7f52d48d3ce5ff676
+author James <jfinal@126.com> 2014-10-22 21:32:50 +0800
+committer James <jfinal@126.com> 2014-10-22 21:32:50 +0800
+
+    jfinal weixin release
+
+
+
+:100644 100644 5170a9a86f0d7d773b32c968c475c679761b323d 2448f05b92fe76e9fe0e8374ff855ae92fff84c3 M	.project
+:100644 100644 0bf9c31e26a2b7e02cf696896ede3c12dc617905 b08c5fcb6b54cecfd1db2f6ae8a0c6d43189d1f1 M	.settings/org.eclipse.wst.common.component
+:100644 100644 138dee3a94455e77ac06c2efab3d479663c5db88 787e2e701e684e3d6ddf7453022d3a8032bde230 M	webapp/WEB-INF/a_little_config.txt
+commit ebb9da312bb8e0ebae7eabd7f52d48d3ce5ff676
+tree cc7d49f9229de627f3ba24b4903eb827d29535af
+parent d00278c640eb0b8a59703c76a13c969aef41b7e4
+author James <jfinal@126.com> 2014-10-22 21:26:24 +0800
+committer James <jfinal@126.com> 2014-10-22 21:26:24 +0800
+
+    jfinal weixin release :)
+
+
+
+:100644 100644 248fb5cecddc59a6a88d35d7b25aee21788a325e f9cb916cf8e136de2c97588a31f4d932c628f62c M	webapp/WEB-INF/web.xml
+commit d00278c640eb0b8a59703c76a13c969aef41b7e4
+tree 9221c51bcfc10789233af1e0f269dc5225ca907b
+parent b7859bd39d0cc7ab1f22b85776af3effd5a39165
+author James <jfinal@126.com> 2014-10-20 18:25:01 +0800
+committer James <jfinal@126.com> 2014-10-20 18:25:01 +0800
+
+    jfinal weixin 1.0 release
+
+
+
+:100644 100644 3344f123a7047ebfcb2881497ae1bb46ef72bcb0 248fb5cecddc59a6a88d35d7b25aee21788a325e M	webapp/WEB-INF/web.xml
+commit b7859bd39d0cc7ab1f22b85776af3effd5a39165
+tree 7d9afbc39416d0289140b487a27d6882623eec9a
+parent fb6259a25dca771692a44dca59d8173990ff3878
+author James <jfinal@126.com> 2014-10-20 17:16:18 +0800
+committer James <jfinal@126.com> 2014-10-20 17:16:18 +0800
+
+    jfinal weixin release
+
+
+
+:100644 100644 b5d1dcb61770b53d61cb940fdfd1e298f567cd02 42476141b422c2e0d8964d4a5889b2cc57c18b07 M	README.md
+commit fb6259a25dca771692a44dca59d8173990ff3878
+tree 8ebd6f327abc0ad73aea1a526a4254ebb48d14f7
+parent 8d30e1995f9c05e0fcacac5f75715f79c4f9bd7c
+author James <jfinal@126.com> 2014-10-20 17:13:46 +0800
+committer James <jfinal@126.com> 2014-10-20 17:13:46 +0800
+
+    jfinal weixin release
+
+
+
+:100644 100644 1a623804256093fe822b22ff0c11dd619510f445 b5d1dcb61770b53d61cb940fdfd1e298f567cd02 M	README.md
+:100644 100644 96365b4cc133f07cc32702f55263312afe71db0e b4e5583b9c99efe79e7216883f29d06c60ed68af M	src/com/jfinal/weixin/demo/ApiController.java
+commit 8d30e1995f9c05e0fcacac5f75715f79c4f9bd7c
+tree ed98c84b52bc67c5d1bc2ae00fd7e0694c592a45
+parent 21acfd7b780ef0f92495cea7ac11a7d87cae0b64
+author James <jfinal@126.com> 2014-10-20 15:25:08 +0800
+committer James <jfinal@126.com> 2014-10-20 15:25:08 +0800
+
+    jfinal weixin release
+
+
+
+:100644 100644 99ea5e3f86170b6a77562426b72f34171ff4f5e6 7013b6685729b0ea61b6a7b0c1054690eec3784e R095	src/com/jfinal/weixin/sdk/api/OAuthApi.java	src/com/jfinal/weixin/sdk/api/AccessTokenApi.java
+:100644 000000 01e479bd4ae50ea1425c88ab98910e34a8e6d2f9 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/CustomerServiceApi.java
+:100644 000000 b964638a7c136a0575d3ea09217f13cd91b110a1 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/GroupApi.java
+:100644 000000 203d2faa4f8db0bf59764cc2b87a9040844f44fb 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/MediaApi.java
+:100644 100644 95e22f873d90449f0febd3d50d6673806ae13c31 403506631af71b098c5483595f2838b5f45499b6 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 000000 02e5321a69d4994d7c84fa57978ff087a2f4c392 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/QrCodeApi.java
+:100644 100644 042fff7a5a79fbd90a5e5d693ad494070bc02a8e 9dc526c6adee01093a4b77728b41aad91fe7d87a M	src/com/jfinal/weixin/sdk/api/UserApi.java
+commit 21acfd7b780ef0f92495cea7ac11a7d87cae0b64
+tree 861e219ee8d950d502cb4f7592a7bc6316e5a0b4
+parent 7ca21bc8c7eb0362b96423fc27a366d7478879c8
+author James <jfinal@126.com> 2014-10-18 21:27:37 +0800
+committer James <jfinal@126.com> 2014-10-18 21:27:37 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 029e0002af05c2b59e6c7b1938e6203f98f5ef17 96365b4cc133f07cc32702f55263312afe71db0e M	src/com/jfinal/weixin/demo/ApiController.java
+:100644 100644 84de727ab52cb77cc8dbb905023265be0d15fadd de24041828632f011a180a8e084957ad3e46c885 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 fd84867657a891dc671edbe0d4127e322c0537c9 76c2a5102a4a38a4168424f9ff3c4d6acfed3eb2 M	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 735a8ccb0723026bc9320868966b9d5812ec26e9 1f9afb73228206a0113757582595089e4943abe8 M	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 100644 9fe0b6c40d6e5b75cd9c200e4bdb3af6ddc62a8b 95e22f873d90449f0febd3d50d6673806ae13c31 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 b2c4bbfa4db6ed7fc32fd950eb13270e7fa26373 042fff7a5a79fbd90a5e5d693ad494070bc02a8e M	src/com/jfinal/weixin/sdk/api/UserApi.java
+commit 7ca21bc8c7eb0362b96423fc27a366d7478879c8
+tree 7f23f0f5fab8550d8c40760688b44ea84f705520
+parent 064eda8af7f4e3bd87e0583779359e10cb1daaf6
+author James <jfinal@126.com> 2014-10-18 21:08:00 +0800
+committer James <jfinal@126.com> 2014-10-18 21:08:00 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 772bcd99ff4e5b55ccc04f1020213f0110836b25 b2c4bbfa4db6ed7fc32fd950eb13270e7fa26373 M	src/com/jfinal/weixin/sdk/api/UserApi.java
+commit 064eda8af7f4e3bd87e0583779359e10cb1daaf6
+tree d59403aa4c0e47afe6f0f7c5822ea7a6f97830c6
+parent c08fc58de75480663bc2ec183c5031f568fb7633
+author James <jfinal@126.com> 2014-10-18 21:07:31 +0800
+committer James <jfinal@126.com> 2014-10-18 21:07:31 +0800
+
+    jfinal weixin
+
+
+
+:100644 100644 26775d5d292af2fb1a4cb21dbf54031b2116d2de 99ea5e3f86170b6a77562426b72f34171ff4f5e6 M	src/com/jfinal/weixin/sdk/api/OAuthApi.java
+:100644 100644 8843590c4cd01158b4067567033b9bd85a6bbbf0 772bcd99ff4e5b55ccc04f1020213f0110836b25 M	src/com/jfinal/weixin/sdk/api/UserApi.java
+:000000 100644 0000000000000000000000000000000000000000 fdb601c7e19c8b4bdc6975aa8a5e0be095ef9207 A	src/com/jfinal/weixin/sdk/kit/ParaMap.java
+commit c08fc58de75480663bc2ec183c5031f568fb7633
+tree 5d963de00f9690c508aaa5bdaa1c8fe9b13fafa1
+parent 20be8d885f17034bffded808688dad27c15e10f5
+author James <jfinal@126.com> 2014-10-18 20:49:36 +0800
+committer James <jfinal@126.com> 2014-10-18 20:49:36 +0800
+
+    jfinal weixin commit
+
+
+
+:100644 100644 7885a709c7d84ec549744f1f18d61e702f83f312 49d941df256d950e0095772e8c3d60ae0e73b255 M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 49150e6ce710095a8ff4e57f6f81c57f99234f6c A	src/com/jfinal/weixin/jackson.txt
+:000000 100644 0000000000000000000000000000000000000000 fd84867657a891dc671edbe0d4127e322c0537c9 A	src/com/jfinal/weixin/sdk/api/AccessToken.java
+:100644 100644 d1a5851479f1844de01f00fc5c1994b91f8067fc e887e234230b27de84b493e76f1050800146c9ee M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:000000 100644 0000000000000000000000000000000000000000 735a8ccb0723026bc9320868966b9d5812ec26e9 A	src/com/jfinal/weixin/sdk/api/ApiResult.java
+:100644 000000 b3c9c26d88b2d2bb72df6662516afc884742e3e4 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/api/FollowerApi.java
+:100644 100644 a6eceb55cdfd684be8d57a6d4a31c47ef9c1d1c2 9fe0b6c40d6e5b75cd9c200e4bdb3af6ddc62a8b M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 bddaafecdbde91e2f0731cd0ddac2108bdb128de 26775d5d292af2fb1a4cb21dbf54031b2116d2de M	src/com/jfinal/weixin/sdk/api/OAuthApi.java
+:000000 100644 0000000000000000000000000000000000000000 8843590c4cd01158b4067567033b9bd85a6bbbf0 A	src/com/jfinal/weixin/sdk/api/UserApi.java
+commit 20be8d885f17034bffded808688dad27c15e10f5
+tree adc14fab5f595960d42ac156c183cd901943b03b
+parent d7156cf81656903c4621a8dc79be7f0e101d3d1f
+author James <jfinal@126.com> 2014-10-18 16:51:44 +0800
+committer James <jfinal@126.com> 2014-10-18 16:51:44 +0800
+
+    jfinal weixin beta version commit
+
+
+
+:100644 100644 4d49800605e79ade6fdd3c794c7dac5cf83f4fb0 05853b95cc50204c4bd11390b8a9087036757b45 M	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+commit d7156cf81656903c4621a8dc79be7f0e101d3d1f
+tree 6763a92d04d4ab85f86f90d04cadc47f8585d004
+parent 1e8a10097aaa2372ae444384701801e1d66eb93a
+author James <jfinal@126.com> 2014-10-18 15:13:14 +0800
+committer James <jfinal@126.com> 2014-10-18 15:13:14 +0800
+
+    jfinal weixin beta version commit
+
+
+
+:100644 100644 37d47bea3e3897568e39a85fdeaa1af369df9562 7885a709c7d84ec549744f1f18d61e702f83f312 M	pom.xml
+commit 1e8a10097aaa2372ae444384701801e1d66eb93a
+tree 8e42c0de15ca3bd4d29a58f073f77d91dd25dcc6
+parent 74db5082d548f19e64654c20141bacb8f015102c
+author James <jfinal@126.com> 2014-10-18 13:55:30 +0800
+committer James <jfinal@126.com> 2014-10-18 13:55:30 +0800
+
+    jfinal weixin beta version commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 029e0002af05c2b59e6c7b1938e6203f98f5ef17 A	src/com/jfinal/weixin/demo/ApiController.java
+:100644 100644 5ada7f79fdbe9da6d571d49e97d24c0b949836c3 0c9709d4c007c0a63286e8f26f8187c9e1a9c6f3 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 100644 a25d9c4cef14070717b6b5ae99dac666f3d003bf 4d49800605e79ade6fdd3c794c7dac5cf83f4fb0 M	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+:000000 100644 0000000000000000000000000000000000000000 8fd0b3431ed4f33ab61fa607be56dcf7e5db9c7f A	src/com/jfinal/weixin/sdk/kit/PropKit.java
+:100644 100644 0cfe1890b0282bf36aedd128b6209cb307d30ee7 138dee3a94455e77ac06c2efab3d479663c5db88 M	webapp/WEB-INF/a_little_config.txt
+commit 74db5082d548f19e64654c20141bacb8f015102c
+tree 269890646666288cfcd12c310aa1b71128e05ea6
+parent 460d9a2f914cef90c4f3d7b441e1676a0506393d
+author James <jfinal@126.com> 2014-10-13 11:59:54 +0800
+committer James <jfinal@126.com> 2014-10-13 11:59:54 +0800
+
+    jfinal weixin beta version commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 72d083d9fbfc8a024d9de42faaa6cc4e3b2ef791 A	src/com/jfinal/weixin/sdk/api/ReturnCode.java
+commit 460d9a2f914cef90c4f3d7b441e1676a0506393d
+tree c8747faedad16e902d06b21589fceca520925de8
+parent 268cfd6ecd3416deb9c2f268a9efe95e9a1ab265
+author James <jfinal@126.com> 2014-10-12 22:12:55 +0800
+committer James <jfinal@126.com> 2014-10-12 22:12:55 +0800
+
+    jfinal weixin beta version commit
+
+
+
+:100644 100644 6952a4962e6b0594736795d122db8106a5a169b0 1a623804256093fe822b22ff0c11dd619510f445 M	README.md
+:100644 100644 031ca475bbf17854485020fbb2e8c9d75d748157 37d47bea3e3897568e39a85fdeaa1af369df9562 M	pom.xml
+:100644 100644 d555a152dfb4a00425e2f9606c3f9cd0cb23a553 84de727ab52cb77cc8dbb905023265be0d15fadd M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 69a92bf653f30eeadf6a7c549bbbe1611f9a061e 5ada7f79fdbe9da6d571d49e97d24c0b949836c3 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:000000 100644 0000000000000000000000000000000000000000 778ca47ab164afe5be90103fdc5a47ea4eabfcbc A	src/com/jfinal/weixin/sdk/jfinal/WeixinControllerAdapter.java
+:000000 100644 0000000000000000000000000000000000000000 88f4f251fe5b5929b9d3872929d7212f38e8a2a8 A	src/com/jfinal/weixin/sdk/jfinal/WeixinInterceptor.java
+:000000 100644 0000000000000000000000000000000000000000 e8219223f55d50609b34f6199955698e9f042d92 A	src/ehcache.xml
+:000000 100644 0000000000000000000000000000000000000000 2eec87165e1116c6b75a1e713b1088c641b653ad A	src/log4j.properties
+:100644 100644 6f977c92723ed6c7c5d7ebebc9f661132b3dccc9 0cfe1890b0282bf36aedd128b6209cb307d30ee7 M	webapp/WEB-INF/a_little_config.txt
+commit 268cfd6ecd3416deb9c2f268a9efe95e9a1ab265
+tree 4d4b105cd9208d0ee4f93c19fdec31874dc0087b
+parent 11dc5582be7cb4d77e32701057bd6f9abe1d96f5
+author James <jfinal@126.com> 2014-09-28 11:15:40 +0800
+committer James <jfinal@126.com> 2014-09-28 11:15:40 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 0146e97536c89eac5123d6d8f022f37bb75d9707 4514f925b4ad6ec8b9ae18bc82f8a2d1ff0986ea M	src/com/jfinal/weixin/demo/DemoController.java
+commit 11dc5582be7cb4d77e32701057bd6f9abe1d96f5
+tree 84403c6c8abf0d3cafb6942162c4dd88cc559287
+parent 722d01799261fd9ca184a184f51203b2221fdcf2
+author James <jfinal@126.com> 2014-09-27 22:42:57 +0800
+committer James <jfinal@126.com> 2014-09-27 22:42:57 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 5ea85871237fc1a060161b2eaa4e469b05f019ba a38181c188b7ecd15dc04b37f488bad399dcada0 M	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+commit 722d01799261fd9ca184a184f51203b2221fdcf2
+tree b7a1f3954e2fd42622fcbf642c20c3b8723685a2
+parent 510ee309924f2a8d39a2b3241bd34ab3868dad1e
+author James <jfinal@126.com> 2014-09-27 22:27:10 +0800
+committer James <jfinal@126.com> 2014-09-27 22:27:10 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 a627b7b04c237beffc50e61fcfdc84f51232f91e 0146e97536c89eac5123d6d8f022f37bb75d9707 M	src/com/jfinal/weixin/demo/DemoController.java
+commit 510ee309924f2a8d39a2b3241bd34ab3868dad1e
+tree ab09179cb1cd11178874c76f5217a8f653121e56
+parent a7dd4ac313aba5022706a970fbd3aa9e040538f5
+author James <jfinal@126.com> 2014-09-27 22:17:10 +0800
+committer James <jfinal@126.com> 2014-09-27 22:17:10 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 078a335878222568d6e1da037b835ad1acd7e2c2 5fc16796042aec34792327afbcc383548a84affa M	src/com/jfinal/weixin/sdk/msg/out/News.java
+:100644 100644 6b978502ce06e301b2cca999bdbb175faa631a24 5aa4728fdfda2d47447a51e9fe3488317dfb45cb M	src/com/jfinal/weixin/sdk/msg/out/OutMusicMsg.java
+:100644 100644 1ee597bfcc75c3863fb65c812278ee6813864ef4 f92eca5752566c89fbfd3d23bb4f2559952afa6a M	src/com/jfinal/weixin/sdk/msg/out/OutNewsMsg.java
+:100644 100644 c609eae1fdd4072838a503f308644b4b8cb178a2 0ad69c9e13b3ac64e7b5cc558afa894b073d4702 M	src/com/jfinal/weixin/sdk/msg/out/OutVideoMsg.java
+commit a7dd4ac313aba5022706a970fbd3aa9e040538f5
+tree d7fd0960ec720dda51498c5b092d228774d8059a
+parent 3ede1819c354f5d308b8b6cdf242381c5085177f
+author James <jfinal@126.com> 2014-09-27 21:47:04 +0800
+committer James <jfinal@126.com> 2014-09-27 21:47:04 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 c667f0d7ea9b8c7426ba6960eb55021ff5e6632f 69a92bf653f30eeadf6a7c549bbbe1611f9a061e M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+commit 3ede1819c354f5d308b8b6cdf242381c5085177f
+tree 0c31672b65217a5777bedfd028a632baa279dd6a
+parent 6b004ce17f6028bfdbae351acc9f9ca6f0bfcd04
+author James <jfinal@126.com> 2014-09-27 21:40:15 +0800
+committer James <jfinal@126.com> 2014-09-27 21:40:15 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 8e94cf1ecc43e9b3770f24686a5565351ce6a913 a627b7b04c237beffc50e61fcfdc84f51232f91e M	src/com/jfinal/weixin/demo/DemoController.java
+commit 6b004ce17f6028bfdbae351acc9f9ca6f0bfcd04
+tree dbba723c092913039a1d8b6cffb5a43438b52ecc
+parent 239ca2640e77301675def7603ad349fc9d2d1842
+author James <jfinal@126.com> 2014-09-27 21:39:13 +0800
+committer James <jfinal@126.com> 2014-09-27 21:39:13 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 3c2e2d9be24044822fde894bdc7a9adc6c6ee486 d555a152dfb4a00425e2f9606c3f9cd0cb23a553 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+commit 239ca2640e77301675def7603ad349fc9d2d1842
+tree 021ad197a9f64a4952cdbbc77eb151fef9acbde6
+parent 0d72ec9cb081b70c16cda46f8b4b440e95fe07f4
+author James <jfinal@126.com> 2014-09-27 21:37:51 +0800
+committer James <jfinal@126.com> 2014-09-27 21:37:51 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 000000 b8bf78f998f829f15822c5a5be8b05ed07708ddf 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/jfinal/SignatureCheckInterceptor.java
+:100644 100644 761ea56ee1ab29fb83f789daa70c1ca44c09c317 c667f0d7ea9b8c7426ba6960eb55021ff5e6632f M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+commit 0d72ec9cb081b70c16cda46f8b4b440e95fe07f4
+tree 88b6d15f8235b63fa54ae4761552b846ecc05ad8
+parent df96fce0597af76d9723149ff6c9f7a7ac17ff26
+author James <jfinal@126.com> 2014-09-27 21:27:25 +0800
+committer James <jfinal@126.com> 2014-09-27 21:27:25 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 317f20b2f06aa36af7b2adcb192556c757c31f03 d1a5851479f1844de01f00fc5c1994b91f8067fc M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:100644 000000 55e73610ef4e656a716305ded385b5c9410bfc46 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/jfinal/OutMsgRender.java
+:100644 100644 6b5f280bd647a21d496248105dda664ccfe5071b 761ea56ee1ab29fb83f789daa70c1ca44c09c317 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+commit df96fce0597af76d9723149ff6c9f7a7ac17ff26
+tree ca982cb82527349d0e6ed79ec75c8e54790bef83
+parent 3a3728666f96974b682359ed1d179549a818bfe5
+author James <jfinal@126.com> 2014-09-27 21:18:04 +0800
+committer James <jfinal@126.com> 2014-09-27 21:18:04 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 93b4cc58aaceba7eddc2e3321649652099d06eb8 5ea85871237fc1a060161b2eaa4e469b05f019ba M	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+commit 3a3728666f96974b682359ed1d179549a818bfe5
+tree 2a4fa8ff7bf30dcc931444eaa6025c7276fcc99b
+parent d64c3268a8ca921a1a0e817044224a3ac376b54e
+author James <jfinal@126.com> 2014-09-27 21:04:04 +0800
+committer James <jfinal@126.com> 2014-09-27 21:04:04 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 93b4cc58aaceba7eddc2e3321649652099d06eb8 A	src/com/jfinal/weixin/sdk/msg/OutMsgXmlBuilder.java
+commit d64c3268a8ca921a1a0e817044224a3ac376b54e
+tree 2dbca82520548569c084d6cae3915555a5aada73
+parent 1b2fdddf064680ebc7d47e67de62363eac1b8bef
+author James <jfinal@126.com> 2014-09-27 21:03:42 +0800
+committer James <jfinal@126.com> 2014-09-27 21:03:42 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 5f95844fd8ad0febddaef9ff981f996e40ca2049 6f447e8bd86c5c7d787e2bdb731ad4a0ecaa91a1 M	src/com/jfinal/weixin/sdk/msg/InMsgParaser.java
+:100644 100644 29beee2cd0ef6d125b0134770f226b2a47ee64ad 6b978502ce06e301b2cca999bdbb175faa631a24 M	src/com/jfinal/weixin/sdk/msg/out/OutMusicMsg.java
+commit 1b2fdddf064680ebc7d47e67de62363eac1b8bef
+tree 1f491756faa4ec41fa15d4f37371bf494cb3cca8
+parent 774c0dcc879127cdb87e05a4de51f8c6bd3830f2
+author James <jfinal@126.com> 2014-09-27 15:12:26 +0800
+committer James <jfinal@126.com> 2014-09-27 15:12:26 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 5f95844fd8ad0febddaef9ff981f996e40ca2049 A	src/com/jfinal/weixin/sdk/msg/InMsgParaser.java
+:000000 100644 0000000000000000000000000000000000000000 6537131e120e93c6a452d028d48fe42fdcf86592 A	src/com/jfinal/weixin/sdk/msg/in/InImageMsg.java
+:000000 100644 0000000000000000000000000000000000000000 a1258387f8f5cca603f67a362b12f5159f489404 A	src/com/jfinal/weixin/sdk/msg/in/InLinkMsg.java
+:000000 100644 0000000000000000000000000000000000000000 4acdef6c38d96ae89b77f945d81f600fa133508f A	src/com/jfinal/weixin/sdk/msg/in/InLocationMsg.java
+:000000 100644 0000000000000000000000000000000000000000 10b844081a5dc11cb2ffaae9208bfc597470121c A	src/com/jfinal/weixin/sdk/msg/in/InMsg.java
+:000000 100644 0000000000000000000000000000000000000000 27f816107f94ad534df26ed80d37f61b880858d8 A	src/com/jfinal/weixin/sdk/msg/in/InTextMsg.java
+:000000 100644 0000000000000000000000000000000000000000 23f0781994d91e83df2afd07976a260cf20b2706 A	src/com/jfinal/weixin/sdk/msg/in/InVideoMsg.java
+:000000 100644 0000000000000000000000000000000000000000 56983a739eb4e3644defca8b9e935379fa399c62 A	src/com/jfinal/weixin/sdk/msg/in/InVoiceMsg.java
+:000000 100644 0000000000000000000000000000000000000000 dc4c09a461270654b832b2fdf129e7c90b1d0743 A	src/com/jfinal/weixin/sdk/msg/in/event/InFollowEvent.java
+:000000 100644 0000000000000000000000000000000000000000 48bed4f8a1b1e441171c025e698c9244803db1a6 A	src/com/jfinal/weixin/sdk/msg/in/event/InLocationEvent.java
+:000000 100644 0000000000000000000000000000000000000000 80a8bac650d9c13685b6a482ee4692f2698e8d56 A	src/com/jfinal/weixin/sdk/msg/in/event/InMenuEvent.java
+:000000 100644 0000000000000000000000000000000000000000 e74623c8d00aff498fc4c6c29b3ff443b4ca5839 A	src/com/jfinal/weixin/sdk/msg/in/event/InQrCodeEvent.java
+:000000 100644 0000000000000000000000000000000000000000 67400dbc51d0db065ab60d0a678a2f98db64d5ee A	src/com/jfinal/weixin/sdk/msg/in/speech_recognition/InSpeechRecognitionResults.java
+:000000 100644 0000000000000000000000000000000000000000 078a335878222568d6e1da037b835ad1acd7e2c2 A	src/com/jfinal/weixin/sdk/msg/out/News.java
+:000000 100644 0000000000000000000000000000000000000000 018429f04de8cac7d11a9cc20f203a793e7243a0 A	src/com/jfinal/weixin/sdk/msg/out/OutImageMsg.java
+:000000 100644 0000000000000000000000000000000000000000 812e07bf5f36560907808b92359a668ca78457e4 A	src/com/jfinal/weixin/sdk/msg/out/OutMsg.java
+:000000 100644 0000000000000000000000000000000000000000 29beee2cd0ef6d125b0134770f226b2a47ee64ad A	src/com/jfinal/weixin/sdk/msg/out/OutMusicMsg.java
+:000000 100644 0000000000000000000000000000000000000000 1ee597bfcc75c3863fb65c812278ee6813864ef4 A	src/com/jfinal/weixin/sdk/msg/out/OutNewsMsg.java
+:000000 100644 0000000000000000000000000000000000000000 7951153c70ebab8c9be8b82614ca7faf42cae513 A	src/com/jfinal/weixin/sdk/msg/out/OutTextMsg.java
+:000000 100644 0000000000000000000000000000000000000000 c609eae1fdd4072838a503f308644b4b8cb178a2 A	src/com/jfinal/weixin/sdk/msg/out/OutVideoMsg.java
+:000000 100644 0000000000000000000000000000000000000000 b82ffa669014a6e5e706a924b9a2e5ddc112a000 A	src/com/jfinal/weixin/sdk/msg/out/OutVoiceMsg.java
+commit 774c0dcc879127cdb87e05a4de51f8c6bd3830f2
+tree 573b01254a894a161c52b31998d9402d6b5c229d
+parent 4156e11672b1a18649280a87000d8bc938e49102
+author James <jfinal@126.com> 2014-09-27 15:11:32 +0800
+committer James <jfinal@126.com> 2014-09-27 15:11:32 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 0b885860488ba1afd8efcc6dfd0317363fda5676 317f20b2f06aa36af7b2adcb192556c757c31f03 M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:100644 100644 8b6681d01a1634c184d0b9af997974d03747c0f6 55e73610ef4e656a716305ded385b5c9410bfc46 M	src/com/jfinal/weixin/sdk/jfinal/OutMsgRender.java
+:100644 100644 4b4ea80cc9fd2012353d617fc76f4fa0ed8b76fc 6b5f280bd647a21d496248105dda664ccfe5071b M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 000000 f2f4699c83f464a08ec5405c48a6b0c9dc064e0c 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/InMsgParaser.java
+:100644 000000 1bb9bb279a4f7a01ab1879769d7e120c0a55ee39 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InImageMsg.java
+:100644 000000 6f7e6c6db27ec973d3a390d33d3bfa21cfff2ea8 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InLinkMsg.java
+:100644 000000 60a94b8ff4d4e0f293704e068fae252c65d0332c 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InLocationMsg.java
+:100644 000000 a617c0015c67bd83aacc1951b6ba0bf76436c204 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InMsg.java
+:100644 000000 c4980063012bda301aaf4771b779b3cb068f2642 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InTextMsg.java
+:100644 000000 3d8c907a370e2a1ba05dbc1c055da1705e0fb9d2 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InVideoMsg.java
+:100644 000000 bfdcf0c96b1ef4a509f547f7d4fad72945ba81bb 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/InVoiceMsg.java
+:100644 000000 fe6bc9ec81c789fc90a58483109f61de454c637b 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/event/InFollowEvent.java
+:100644 000000 75c9b4394524694326a711e54242e73fc4b19a41 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/event/InLocationEvent.java
+:100644 000000 1f80989879eb3675018beb07f8159063f603d9b0 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/event/InMenuEvent.java
+:100644 000000 9fdcb54234968e2ddebdc33c1480c98cf843aac8 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/event/InQrCodeEvent.java
+:100644 000000 faaa91fd1743474b765ade7eff040496abf4dcdf 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/in/speech_recognition/InSpeechRecognitionResults.java
+:100644 000000 fec2f660059d93252df9832e2cc183ee5dc5b2ba 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/News.java
+:100644 000000 023f241481d167bd6a9ab94993b0decccbceb671 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutImageMsg.java
+:100644 000000 546f30452c98994cd304dec7678cb98171388b24 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutMsg.java
+:100644 000000 a468f4428c9c95e2e15c7c917d53dbf0d38134aa 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutMusicMsg.java
+:100644 000000 7b254623561027541040c8b621f983effad856ef 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutNewsMsg.java
+:100644 000000 1cb813a047c9e0ffbf41df12a8e9c5cef5344bcf 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutTextMsg.java
+:100644 000000 ff40630f43b19269273420d3b2a0c88ca4c2321d 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutVideoMsg.java
+:100644 000000 8191cc66b86f8e7f80e24c6509f578c487fdd7c1 0000000000000000000000000000000000000000 D	src/com/jfinal/weixin/sdk/message/out/OutVoiceMsg.java
+commit 4156e11672b1a18649280a87000d8bc938e49102
+tree 4a87f9a54e6e6fab3eb9922fc4ab0ff31613f6dd
+parent 9a1c47e3ba337c3156e3782c73d74468f987b5d3
+author James <jfinal@126.com> 2014-09-27 15:07:42 +0800
+committer James <jfinal@126.com> 2014-09-27 15:07:42 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 56a55164ce131ac6f85bd2e1b125fab27a3334e4 f2f4699c83f464a08ec5405c48a6b0c9dc064e0c M	src/com/jfinal/weixin/sdk/message/InMsgParaser.java
+:100644 100644 df90ce1876c05b3e83aaf251faa07a52c7a52872 023f241481d167bd6a9ab94993b0decccbceb671 M	src/com/jfinal/weixin/sdk/message/out/OutImageMsg.java
+:100644 100644 7b6a0b304c3892a6ff69afc30a391b0b0b661fab 546f30452c98994cd304dec7678cb98171388b24 M	src/com/jfinal/weixin/sdk/message/out/OutMsg.java
+:100644 100644 b7675cbba98b6971ef43507adf92b5118d82d8b3 a468f4428c9c95e2e15c7c917d53dbf0d38134aa M	src/com/jfinal/weixin/sdk/message/out/OutMusicMsg.java
+:100644 100644 1cc6163583b8147474b56ef9cefb5e08d40746c5 7b254623561027541040c8b621f983effad856ef M	src/com/jfinal/weixin/sdk/message/out/OutNewsMsg.java
+:100644 100644 a28e58884f5accb67e8307738d79fcb1ccdf5cbc 1cb813a047c9e0ffbf41df12a8e9c5cef5344bcf M	src/com/jfinal/weixin/sdk/message/out/OutTextMsg.java
+:100644 100644 1491d422746496039e888301268c812b2ecc174e ff40630f43b19269273420d3b2a0c88ca4c2321d M	src/com/jfinal/weixin/sdk/message/out/OutVideoMsg.java
+:100644 100644 af355957b6b1b617aaad95c3b4864bb5de3a9c88 8191cc66b86f8e7f80e24c6509f578c487fdd7c1 M	src/com/jfinal/weixin/sdk/message/out/OutVoiceMsg.java
+commit 9a1c47e3ba337c3156e3782c73d74468f987b5d3
+tree 549b19fcf92c57bc5fd91c679e9e8d4c6d33ccc2
+parent 4657ab9d67ee5f5502a46751eb50fbf670d7310d
+author James <jfinal@126.com> 2014-09-27 14:56:41 +0800
+committer James <jfinal@126.com> 2014-09-27 14:56:41 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 7da89666b3353ba5cb9a9a02c97a0ec300593b6f 8b6681d01a1634c184d0b9af997974d03747c0f6 R053	src/com/jfinal/weixin/sdk/jfinal/OutMessageRender.java	src/com/jfinal/weixin/sdk/jfinal/OutMsgRender.java
+:100644 100644 cc7b23ca076a883222ed0e6449c142d6998027c3 4b4ea80cc9fd2012353d617fc76f4fa0ed8b76fc M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+commit 4657ab9d67ee5f5502a46751eb50fbf670d7310d
+tree 505b3ad12a07ab6b13801622eb2f3effd305a44e
+parent 80988acebca5cb14772c698699f01e8db362add9
+author James <jfinal@126.com> 2014-09-27 14:49:37 +0800
+committer James <jfinal@126.com> 2014-09-27 14:49:37 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 d495fab87050e940d7f028234a348ec691950c15 56a55164ce131ac6f85bd2e1b125fab27a3334e4 R075	src/com/jfinal/weixin/sdk/message/InMessageParaser.java	src/com/jfinal/weixin/sdk/message/InMsgParaser.java
+:100644 100644 58f91ff31b08e7b72857914ad5abf889a7812cf9 1bb9bb279a4f7a01ab1879769d7e120c0a55ee39 R083	src/com/jfinal/weixin/sdk/message/in/InImageMessage.java	src/com/jfinal/weixin/sdk/message/in/InImageMsg.java
+:100644 100644 8e1ae2e77bc5252201b25bf8ac08a4289220f735 6f7e6c6db27ec973d3a390d33d3bfa21cfff2ea8 R085	src/com/jfinal/weixin/sdk/message/in/InLinkMessage.java	src/com/jfinal/weixin/sdk/message/in/InLinkMsg.java
+:100644 100644 b81bce8282176cd397644a74294e80efa9773d39 60a94b8ff4d4e0f293704e068fae252c65d0332c R085	src/com/jfinal/weixin/sdk/message/in/InLocationMessage.java	src/com/jfinal/weixin/sdk/message/in/InLocationMsg.java
+:100644 100644 23e34541876514dc6885762d83788c4fc3fda79a a617c0015c67bd83aacc1951b6ba0bf76436c204 R088	src/com/jfinal/weixin/sdk/message/in/InMessage.java	src/com/jfinal/weixin/sdk/message/in/InMsg.java
+:100644 100644 7b56932f0246acd94c95d3b9af385d437c030389 c4980063012bda301aaf4771b779b3cb068f2642 R081	src/com/jfinal/weixin/sdk/message/in/InTextMessage.java	src/com/jfinal/weixin/sdk/message/in/InTextMsg.java
+:100644 100644 5df5bb13d1e09b62dbe54b1b426248e6a56bd62b 3d8c907a370e2a1ba05dbc1c055da1705e0fb9d2 R084	src/com/jfinal/weixin/sdk/message/in/InVideoMessage.java	src/com/jfinal/weixin/sdk/message/in/InVideoMsg.java
+:100644 100644 e393ea5ee60cb765504a4d8d9842617ac64f2d69 bfdcf0c96b1ef4a509f547f7d4fad72945ba81bb R083	src/com/jfinal/weixin/sdk/message/in/InVoiceMessage.java	src/com/jfinal/weixin/sdk/message/in/InVoiceMsg.java
+:100644 100644 419bd0d11a2cf3e711675a7818d86c936028c23b fe6bc9ec81c789fc90a58483109f61de454c637b M	src/com/jfinal/weixin/sdk/message/in/event/InFollowEvent.java
+:100644 100644 e99fa8d4f0f79c48af4acbc0884953a7f9611bcd 75c9b4394524694326a711e54242e73fc4b19a41 M	src/com/jfinal/weixin/sdk/message/in/event/InLocationEvent.java
+:100644 100644 99de56fbca7942b56576f4577c9b86290a1ad813 1f80989879eb3675018beb07f8159063f603d9b0 M	src/com/jfinal/weixin/sdk/message/in/event/InMenuEvent.java
+:100644 100644 c50d8f108a5d7adc93be027a7c5ab1f8886a557d 9fdcb54234968e2ddebdc33c1480c98cf843aac8 M	src/com/jfinal/weixin/sdk/message/in/event/InQrCodeEvent.java
+:100644 100644 dea7a8bd3a7f2c90963b18d953e58dea922d957f faaa91fd1743474b765ade7eff040496abf4dcdf M	src/com/jfinal/weixin/sdk/message/in/speech_recognition/InSpeechRecognitionResults.java
+:100644 100644 79662ca24825eca2a9ae1714e4902406a7fcbcd9 df90ce1876c05b3e83aaf251faa07a52c7a52872 R082	src/com/jfinal/weixin/sdk/message/out/OutImageMessage.java	src/com/jfinal/weixin/sdk/message/out/OutImageMsg.java
+:100644 100644 1687a858f7a496e3b896a4515c9be662e1070e27 7b6a0b304c3892a6ff69afc30a391b0b0b661fab R087	src/com/jfinal/weixin/sdk/message/out/OutMessage.java	src/com/jfinal/weixin/sdk/message/out/OutMsg.java
+:100644 100644 e00074d708e2680b7d67fbb61a8aa2ae68c139a3 b7675cbba98b6971ef43507adf92b5118d82d8b3 R089	src/com/jfinal/weixin/sdk/message/out/OutMusicMessage.java	src/com/jfinal/weixin/sdk/message/out/OutMusicMsg.java
+:100644 100644 b63f6ecc58deb9a3a8297ade9805f52ad74119e4 1cc6163583b8147474b56ef9cefb5e08d40746c5 R083	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java	src/com/jfinal/weixin/sdk/message/out/OutNewsMsg.java
+:100644 100644 738d990e561a7f6f4070374263de0486308b120e a28e58884f5accb67e8307738d79fcb1ccdf5cbc R078	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java	src/com/jfinal/weixin/sdk/message/out/OutTextMsg.java
+:100644 100644 bbd068f607202aa62fd61c626a301bb46675f90d 1491d422746496039e888301268c812b2ecc174e R086	src/com/jfinal/weixin/sdk/message/out/OutVideoMessage.java	src/com/jfinal/weixin/sdk/message/out/OutVideoMsg.java
+:100644 100644 31fdb96b3b6b6820cc78a944378458c6fe313786 af355957b6b1b617aaad95c3b4864bb5de3a9c88 R082	src/com/jfinal/weixin/sdk/message/out/OutVoiceMessage.java	src/com/jfinal/weixin/sdk/message/out/OutVoiceMsg.java
+commit 80988acebca5cb14772c698699f01e8db362add9
+tree 5b644cedea2e06fdafe99a64a1507d789ee305ea
+parent daa9cc969711bcb523422f40a48656855ffe31e1
+author James <jfinal@126.com> 2014-09-27 14:44:42 +0800
+committer James <jfinal@126.com> 2014-09-27 14:44:42 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 49028a68462a740eddaca42055b00784d21e4b0b fec2f660059d93252df9832e2cc183ee5dc5b2ba M	src/com/jfinal/weixin/sdk/message/out/News.java
+:100644 100644 fcd4933df4b20d39caa832991f1669604367ac06 b63f6ecc58deb9a3a8297ade9805f52ad74119e4 M	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java
+:100644 100644 1449e46f88c388f082add2e145ea160d19bbe314 738d990e561a7f6f4070374263de0486308b120e M	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java
+commit daa9cc969711bcb523422f40a48656855ffe31e1
+tree 9cce58bdad5732e9980df1c5e127289e1e610d47
+parent bcb60ba78335b1350eeeaa376ca188dc52e6649c
+author James <jfinal@126.com> 2014-09-27 14:25:44 +0800
+committer James <jfinal@126.com> 2014-09-27 14:25:44 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 3f1dddb140f694d2033d154fedc2e786b2975394 79662ca24825eca2a9ae1714e4902406a7fcbcd9 M	src/com/jfinal/weixin/sdk/message/out/OutImageMessage.java
+:100644 100644 6275d56c3f5a842c3127e60806bd8d0122b08673 1687a858f7a496e3b896a4515c9be662e1070e27 M	src/com/jfinal/weixin/sdk/message/out/OutMessage.java
+:100644 100644 18730cd2e59d7383244687bf7ca4ffb52b1f3c2a e00074d708e2680b7d67fbb61a8aa2ae68c139a3 M	src/com/jfinal/weixin/sdk/message/out/OutMusicMessage.java
+:100644 100644 debc0882267e8de28c03756bb44a8c93903f0350 fcd4933df4b20d39caa832991f1669604367ac06 M	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java
+:100644 100644 ace11f9948db0eb03b201498984ec042e1aaf7f2 1449e46f88c388f082add2e145ea160d19bbe314 M	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java
+:100644 100644 98f2cdda407790703901df970d75da8f58333b14 bbd068f607202aa62fd61c626a301bb46675f90d M	src/com/jfinal/weixin/sdk/message/out/OutVideoMessage.java
+:100644 100644 47bca4f02f80985e407d8d53f56019ed18f15520 31fdb96b3b6b6820cc78a944378458c6fe313786 M	src/com/jfinal/weixin/sdk/message/out/OutVoiceMessage.java
+commit bcb60ba78335b1350eeeaa376ca188dc52e6649c
+tree 33c6bbc42350973ad679b3039a343fd66b90783e
+parent 5fb653f48e9bf15ca52295e1f479a219ce6af093
+author James <jfinal@126.com> 2014-09-27 11:33:13 +0800
+committer James <jfinal@126.com> 2014-09-27 11:33:13 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 f7fbf707ec7d303ce8f09f5965f9f8ef8c5e01d5 8e94cf1ecc43e9b3770f24686a5565351ce6a913 M	src/com/jfinal/weixin/demo/DemoController.java
+:100644 100644 7c936e14f08667e634e1caa7b75469a8623a5954 d495fab87050e940d7f028234a348ec691950c15 M	src/com/jfinal/weixin/sdk/message/InMessageParaser.java
+:100644 100644 9ce3933ed242ca9288ba398d46467d8053ae6504 419bd0d11a2cf3e711675a7818d86c936028c23b M	src/com/jfinal/weixin/sdk/message/in/event/InFollowEvent.java
+commit 5fb653f48e9bf15ca52295e1f479a219ce6af093
+tree 8348ef0b4bbeb3332a20d3432ff07b658f83ffd8
+parent 75801d57bfaff066c8b66cb6432c95ffb06cff32
+author James <jfinal@126.com> 2014-09-24 21:10:22 +0800
+committer James <jfinal@126.com> 2014-09-24 21:10:22 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 92b98751877a5b9bde8dd9abbfaf9bf263eedba1 3c2e2d9be24044822fde894bdc7a9adc6c6ee486 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 bc9c71ccbfd9c2dd9e24a75676a43eee14486c34 0b885860488ba1afd8efcc6dfd0317363fda5676 M	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:100644 100644 6219f45e2e820e01cc73593b70e164606600540d 6f977c92723ed6c7c5d7ebebc9f661132b3dccc9 M	webapp/WEB-INF/a_little_config.txt
+commit 75801d57bfaff066c8b66cb6432c95ffb06cff32
+tree 68137162c7918090c29fe9c4a139e8cfe5fe3b1a
+parent ff4b5fc626819252d427481eefb9bf484b9c25a3
+author James <jfinal@126.com> 2014-09-23 22:29:12 +0800
+committer James <jfinal@126.com> 2014-09-23 22:29:12 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 5c21e27ef483e0cc496ee3838d239a745b4d38b7 f7fbf707ec7d303ce8f09f5965f9f8ef8c5e01d5 M	src/com/jfinal/weixin/demo/DemoController.java
+:100644 100644 12080e64c94506505709ecbb0a65987c27cf5ad7 92b98751877a5b9bde8dd9abbfaf9bf263eedba1 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:000000 100644 0000000000000000000000000000000000000000 bc9c71ccbfd9c2dd9e24a75676a43eee14486c34 A	src/com/jfinal/weixin/sdk/api/ApiConfig.java
+:000000 100644 0000000000000000000000000000000000000000 100bac7835874cbf1358127d0f98d0e156b10685 A	src/com/jfinal/weixin/sdk/jfinal/NotAction.java
+:100644 100644 ed69ea660a21459c064767d044a40f8092adf806 cc7b23ca076a883222ed0e6449c142d6998027c3 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 100644 c5c3903f3443834715a45392ed2bc7ae3275bc85 a896e9aad00fe15591a2659a8b9114cbae26d535 M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+:100644 100644 f2b32c60503ab3d7bef1af8a0f3997330e68ed16 6219f45e2e820e01cc73593b70e164606600540d M	webapp/WEB-INF/a_little_config.txt
+:100644 100644 0e8b7bb72afdf0b50f3757a61f00a5db979e4eef 3344f123a7047ebfcb2881497ae1bb46ef72bcb0 M	webapp/WEB-INF/web.xml
+commit ff4b5fc626819252d427481eefb9bf484b9c25a3
+tree 79d4087c26f894d77f92968f2bdb60be7aa93004
+parent 87b06a6809ad3e7b035155929072ffde5f2a035b
+author James <jfinal@126.com> 2014-09-17 23:34:47 +0800
+committer James <jfinal@126.com> 2014-09-17 23:34:47 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 202accbe9ab344eee43077eb1ff5d21bdefecd8b 60f3e47bd228fe2a307723935a6fba08218b34b3 M	.gitignore
+commit 87b06a6809ad3e7b035155929072ffde5f2a035b
+tree 26445df8e166ccfbaa590b1c15efcd559a464c92
+parent 29fefcb36a0e5baea1b630e09dd9bde63fba3adc
+author James <jfinal@126.com> 2014-09-14 22:56:30 +0800
+committer James <jfinal@126.com> 2014-09-14 22:56:30 +0800
+
+    jfinal weixin sdk alpha commit
+
+
+
+:100644 100644 fed17d54990bc59882151fc7ab73f41b1c38ff4c 3f1dddb140f694d2033d154fedc2e786b2975394 M	src/com/jfinal/weixin/sdk/message/out/OutImageMessage.java
+:100644 100644 e7b59d7b332234a9b57ed515f4177f34ae762c9d 18730cd2e59d7383244687bf7ca4ffb52b1f3c2a M	src/com/jfinal/weixin/sdk/message/out/OutMusicMessage.java
+:100644 100644 232a56bb04fca888b9ec8109032a689f6673aae8 debc0882267e8de28c03756bb44a8c93903f0350 M	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java
+:100644 100644 6dd9c66f4c88e14231ceeb8bc95fd3d535288d3c ace11f9948db0eb03b201498984ec042e1aaf7f2 M	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java
+:100644 100644 bfab6d2fe56890e34a9ae6b233f7daa275bb968e 98f2cdda407790703901df970d75da8f58333b14 M	src/com/jfinal/weixin/sdk/message/out/OutVideoMessage.java
+:100644 100644 18107466446e1bd773916412b72ff6ca05d50143 47bca4f02f80985e407d8d53f56019ed18f15520 M	src/com/jfinal/weixin/sdk/message/out/OutVoiceMessage.java
+commit 29fefcb36a0e5baea1b630e09dd9bde63fba3adc
+tree cd51c22d42b4494981030e92575b86a721e0f2d7
+parent 35b8d1f7de205263f347d6f3e41754987af066a9
+author James <jfinal@126.com> 2014-09-12 10:33:35 +0800
+committer James <jfinal@126.com> 2014-09-12 10:33:35 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 c62446de7be484a7e777e46d54db584f459d26e9 7da89666b3353ba5cb9a9a02c97a0ec300593b6f M	src/com/jfinal/weixin/sdk/jfinal/OutMessageRender.java
+:100644 100644 8d3372a0831673565d55733025d80a6eccbbad53 ed69ea660a21459c064767d044a40f8092adf806 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 100644 b0ee8cc2d182c1260ea9f244772301f57e36f92d fed17d54990bc59882151fc7ab73f41b1c38ff4c M	src/com/jfinal/weixin/sdk/message/out/OutImageMessage.java
+:100644 100644 cfde58173fae074932f55fe6378dc2abfa020a29 e7b59d7b332234a9b57ed515f4177f34ae762c9d M	src/com/jfinal/weixin/sdk/message/out/OutMusicMessage.java
+:100644 100644 6ff70c4d3ea321c22a65f4031a656b70ba221f7e 232a56bb04fca888b9ec8109032a689f6673aae8 M	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java
+:100644 100644 64b692a9ce3a76da35281d99bd891f847aa3d951 6dd9c66f4c88e14231ceeb8bc95fd3d535288d3c M	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java
+:100644 100644 69ac40e0a28dd4c28eea1872f838ac0a54189f62 bfab6d2fe56890e34a9ae6b233f7daa275bb968e M	src/com/jfinal/weixin/sdk/message/out/OutVideoMessage.java
+:100644 100644 299e336977b3e07c4e8ccf491fb1a07032b8c6d7 18107466446e1bd773916412b72ff6ca05d50143 M	src/com/jfinal/weixin/sdk/message/out/OutVoiceMessage.java
+:100644 100644 3ca606e1b55d0953a807283c33980837d47fe8b5 f2b32c60503ab3d7bef1af8a0f3997330e68ed16 M	webapp/WEB-INF/a_little_config.txt
+commit 35b8d1f7de205263f347d6f3e41754987af066a9
+tree 7c29e290c29d2f4e7e14640766b6881ff6b59f82
+parent 4cc98c376a67574d30e1a7b32e6691373ac7c431
+author James <jfinal@126.com> 2014-09-12 08:41:57 +0800
+committer James <jfinal@126.com> 2014-09-12 08:41:57 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 fa5dc0cac7a9999a52ff37fc4d1aefa807a1221d 12080e64c94506505709ecbb0a65987c27cf5ad7 M	src/com/jfinal/weixin/demo/WeixinConfig.java
+commit 4cc98c376a67574d30e1a7b32e6691373ac7c431
+tree dc1264cb7058bbe92274371beb2ef626c78df155
+parent 89bc38ea9da4b360c1b0e1991359df9952d77112
+author James <jfinal@126.com> 2014-09-12 08:09:29 +0800
+committer James <jfinal@126.com> 2014-09-12 08:09:29 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 bc6c0f4acfd012aa80e86c61460fcce66a345bbe c5c3903f3443834715a45392ed2bc7ae3275bc85 M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+commit 89bc38ea9da4b360c1b0e1991359df9952d77112
+tree 11b672be19bd879ccb2b1bce0880bf2d6d36e699
+parent d59223661910a37f18c932f8f0e262b778b83467
+author James <jfinal@126.com> 2014-09-12 08:08:36 +0800
+committer James <jfinal@126.com> 2014-09-12 08:08:36 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:100644 100644 a1230fd7c769c0149d690c82dd758ec86992245c 202accbe9ab344eee43077eb1ff5d21bdefecd8b M	.gitignore
+:100644 100644 d83a2998f6521cef4ca08bd94db6bdbb0d56d0a3 5c21e27ef483e0cc496ee3838d239a745b4d38b7 M	src/com/jfinal/weixin/demo/DemoController.java
+:100644 100644 56ecd4bd37331880f194e07566ba4c6ef4772ca1 fa5dc0cac7a9999a52ff37fc4d1aefa807a1221d M	src/com/jfinal/weixin/demo/WeixinConfig.java
+:100644 100644 15924a0dc20ed1e6bbd2df306896542dc404708b 01e479bd4ae50ea1425c88ab98910e34a8e6d2f9 M	src/com/jfinal/weixin/sdk/api/CustomerServiceApi.java
+:100644 100644 85da64ea7dd320c8d14482bae63979b70ea8729b b3c9c26d88b2d2bb72df6662516afc884742e3e4 M	src/com/jfinal/weixin/sdk/api/FollowerApi.java
+:100644 100644 18de8d64685bac53dd8b83ee655bc1eaec085dcd b964638a7c136a0575d3ea09217f13cd91b110a1 M	src/com/jfinal/weixin/sdk/api/GroupApi.java
+:100644 100644 feccf52876b5e1f85978a68328dd269cc882b3c5 203d2faa4f8db0bf59764cc2b87a9040844f44fb M	src/com/jfinal/weixin/sdk/api/MediaApi.java
+:100644 100644 3bb19043d35a708f7855fc6bd829fbe585f60467 a6eceb55cdfd684be8d57a6d4a31c47ef9c1d1c2 M	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:100644 100644 22278eb7281b473dd76fc1580929d1353e290be9 bddaafecdbde91e2f0731cd0ddac2108bdb128de M	src/com/jfinal/weixin/sdk/api/OAuthApi.java
+:100644 100644 e21a135349d48a0a260f8f444c1ff55a814f94c6 02e5321a69d4994d7c84fa57978ff087a2f4c392 M	src/com/jfinal/weixin/sdk/api/QrCodeApi.java
+:100644 100644 edcd50ae86482fafafbebc99e709638b9ff182df c62446de7be484a7e777e46d54db584f459d26e9 M	src/com/jfinal/weixin/sdk/jfinal/OutMessageRender.java
+:100644 100644 b5015c027c836b9adb46df0478da9dcbb851dc3a b8bf78f998f829f15822c5a5be8b05ed07708ddf M	src/com/jfinal/weixin/sdk/jfinal/SignatureCheckInterceptor.java
+:100644 100644 fed2591be9006771e7a65eaae018f477ce3dbf34 8d3372a0831673565d55733025d80a6eccbbad53 M	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:100644 100644 489e76a86dd7f96ee1f75353e5c7a4414a5a6f31 788a370fc3b5023db6cc8c594786cef32a135f47 M	src/com/jfinal/weixin/sdk/kit/EncryptionKit.java
+:100644 100644 bb2031e67314b55d847d4ea25c55763c0e17bc49 a25d9c4cef14070717b6b5ae99dac666f3d003bf M	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+:100644 100644 a82ba390100797577641af1beb6c2a5b24a8cf77 f473d88cc6760db6646c73d89481e680581f4e83 M	src/com/jfinal/weixin/sdk/kit/IpKit.java
+:100644 100644 c0a5dd35716704e16664862ca097bab5f7dc891e bc6c0f4acfd012aa80e86c61460fcce66a345bbe M	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+:100644 100644 54c54b389faa53c72d741eb037d03210d929b019 7c936e14f08667e634e1caa7b75469a8623a5954 M	src/com/jfinal/weixin/sdk/message/InMessageParaser.java
+:100644 100644 fedd50b1f768c78b3412839cab947378a2a1b182 58f91ff31b08e7b72857914ad5abf889a7812cf9 M	src/com/jfinal/weixin/sdk/message/in/InImageMessage.java
+:100644 100644 62047e9ea10a6630bd13d00a4e198357848c9f0b 8e1ae2e77bc5252201b25bf8ac08a4289220f735 M	src/com/jfinal/weixin/sdk/message/in/InLinkMessage.java
+:100644 100644 259c8a79c65541d791dad14f8bc032cb88550b99 b81bce8282176cd397644a74294e80efa9773d39 M	src/com/jfinal/weixin/sdk/message/in/InLocationMessage.java
+:100644 100644 d6d0bf742510e27952f5381d83705c4a4fe307c6 23e34541876514dc6885762d83788c4fc3fda79a M	src/com/jfinal/weixin/sdk/message/in/InMessage.java
+:100644 100644 48be086ff856b94fceaabfa63f5a4a0ae848317c 7b56932f0246acd94c95d3b9af385d437c030389 M	src/com/jfinal/weixin/sdk/message/in/InTextMessage.java
+:100644 100644 282837269f2bc969ba8b12c3e33b29772c632236 5df5bb13d1e09b62dbe54b1b426248e6a56bd62b M	src/com/jfinal/weixin/sdk/message/in/InVideoMessage.java
+:100644 100644 4149fbb769f90a56ea66b7037b56a5e03bfd7439 e393ea5ee60cb765504a4d8d9842617ac64f2d69 M	src/com/jfinal/weixin/sdk/message/in/InVoiceMessage.java
+:100644 100644 ddc1a35f2d5ac70391a32a9e21d460d3c3b91737 9ce3933ed242ca9288ba398d46467d8053ae6504 M	src/com/jfinal/weixin/sdk/message/in/event/InFollowEvent.java
+:100644 100644 9f545de6b4f9422aa477a84b9f378eb88edba5ea e99fa8d4f0f79c48af4acbc0884953a7f9611bcd M	src/com/jfinal/weixin/sdk/message/in/event/InLocationEvent.java
+:100644 100644 38d3e0120464549fe17e9b5717864938c834cee6 99de56fbca7942b56576f4577c9b86290a1ad813 M	src/com/jfinal/weixin/sdk/message/in/event/InMenuEvent.java
+:100644 100644 c787f3aefbf1c9ee5b457822254f6a18a0d1edd9 c50d8f108a5d7adc93be027a7c5ab1f8886a557d M	src/com/jfinal/weixin/sdk/message/in/event/InQrCodeEvent.java
+:100644 100644 7a4b10b22559585cc0805d940095cd8e2cfa0c46 dea7a8bd3a7f2c90963b18d953e58dea922d957f M	src/com/jfinal/weixin/sdk/message/in/speech_recognition/InSpeechRecognitionResults.java
+:000000 100644 0000000000000000000000000000000000000000 49028a68462a740eddaca42055b00784d21e4b0b A	src/com/jfinal/weixin/sdk/message/out/News.java
+:000000 100644 0000000000000000000000000000000000000000 b0ee8cc2d182c1260ea9f244772301f57e36f92d A	src/com/jfinal/weixin/sdk/message/out/OutImageMessage.java
+:000000 100644 0000000000000000000000000000000000000000 6275d56c3f5a842c3127e60806bd8d0122b08673 A	src/com/jfinal/weixin/sdk/message/out/OutMessage.java
+:000000 100644 0000000000000000000000000000000000000000 cfde58173fae074932f55fe6378dc2abfa020a29 A	src/com/jfinal/weixin/sdk/message/out/OutMusicMessage.java
+:000000 100644 0000000000000000000000000000000000000000 6ff70c4d3ea321c22a65f4031a656b70ba221f7e A	src/com/jfinal/weixin/sdk/message/out/OutNewsMessage.java
+:000000 100644 0000000000000000000000000000000000000000 64b692a9ce3a76da35281d99bd891f847aa3d951 A	src/com/jfinal/weixin/sdk/message/out/OutTextMessage.java
+:000000 100644 0000000000000000000000000000000000000000 69ac40e0a28dd4c28eea1872f838ac0a54189f62 A	src/com/jfinal/weixin/sdk/message/out/OutVideoMessage.java
+:000000 100644 0000000000000000000000000000000000000000 299e336977b3e07c4e8ccf491fb1a07032b8c6d7 A	src/com/jfinal/weixin/sdk/message/out/OutVoiceMessage.java
+commit d59223661910a37f18c932f8f0e262b778b83467
+tree d542fad0993f722493e869cc3190f7d11cde3bee
+parent e41a5604c7d561f019a956fccb643fb8b6944b2d
+author James <jfinal@126.com> 2014-09-12 08:02:24 +0800
+committer James <jfinal@126.com> 2014-09-12 08:02:24 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	"webapp/_back/\345\220\216\347\253\257.txt"
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	webapp/_front/common/common.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	"webapp/_front/\345\211\215\347\253\257.txt"
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	webapp/css/css.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	webapp/img/images.txt
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	webapp/js/js.txt
+commit e41a5604c7d561f019a956fccb643fb8b6944b2d
+tree 5d79dd3b16b33d9384fd8df469646d158b1e6e3e
+parent 46aa84306b7ba7f9960b2e7985a48186f14632b5
+author James <jfinal@126.com> 2014-09-12 07:54:19 +0800
+committer James <jfinal@126.com> 2014-09-12 07:54:19 +0800
+
+    jfinal weixin sdk alpha version commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 1448de837f6b751562ea9be84e0146a9d3d243ea A	.classpath
+:100644 100644 0f182a0349c4925c57f4ffbd5802b536a3e2588b a1230fd7c769c0149d690c82dd758ec86992245c M	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 5170a9a86f0d7d773b32c968c475c679761b323d A	.project
+:000000 100644 0000000000000000000000000000000000000000 7bc2735d0bfe27e60fcf87b422f0797f8995c55e A	.settings/.jsdtscope
+:000000 100644 0000000000000000000000000000000000000000 dc0892a3256d025ec612eb8524cea67e751d7838 A	.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000000000000000000000000000000000000 14b697b7bbb0d85e8d8ee19141a2a92d9ce211be A	.settings/org.eclipse.m2e.core.prefs
+:000000 100644 0000000000000000000000000000000000000000 0bf9c31e26a2b7e02cf696896ede3c12dc617905 A	.settings/org.eclipse.wst.common.component
+:000000 100644 0000000000000000000000000000000000000000 593353a0a35391cef5ed8c89bb91ab22092d5a28 A	.settings/org.eclipse.wst.common.project.facet.core.xml
+:000000 100644 0000000000000000000000000000000000000000 3bd5d0a4803967bc0bf72a7dd66d7e292ed2e586 A	.settings/org.eclipse.wst.jsdt.ui.superType.container
+:000000 100644 0000000000000000000000000000000000000000 05bd71b6ec2c1982d1e8a5653073281994564ae8 A	.settings/org.eclipse.wst.jsdt.ui.superType.name
+:000000 100644 0000000000000000000000000000000000000000 6f1cba68d5f82a12e1f80e8798437495567e43e7 A	.settings/org.eclipse.wst.validation.prefs
+:000000 100644 0000000000000000000000000000000000000000 031ca475bbf17854485020fbb2e8c9d75d748157 A	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 d83a2998f6521cef4ca08bd94db6bdbb0d56d0a3 A	src/com/jfinal/weixin/demo/DemoController.java
+:000000 100644 0000000000000000000000000000000000000000 56ecd4bd37331880f194e07566ba4c6ef4772ca1 A	src/com/jfinal/weixin/demo/WeixinConfig.java
+:000000 100644 0000000000000000000000000000000000000000 15924a0dc20ed1e6bbd2df306896542dc404708b A	src/com/jfinal/weixin/sdk/api/CustomerServiceApi.java
+:000000 100644 0000000000000000000000000000000000000000 85da64ea7dd320c8d14482bae63979b70ea8729b A	src/com/jfinal/weixin/sdk/api/FollowerApi.java
+:000000 100644 0000000000000000000000000000000000000000 18de8d64685bac53dd8b83ee655bc1eaec085dcd A	src/com/jfinal/weixin/sdk/api/GroupApi.java
+:000000 100644 0000000000000000000000000000000000000000 feccf52876b5e1f85978a68328dd269cc882b3c5 A	src/com/jfinal/weixin/sdk/api/MediaApi.java
+:000000 100644 0000000000000000000000000000000000000000 3bb19043d35a708f7855fc6bd829fbe585f60467 A	src/com/jfinal/weixin/sdk/api/MenuApi.java
+:000000 100644 0000000000000000000000000000000000000000 22278eb7281b473dd76fc1580929d1353e290be9 A	src/com/jfinal/weixin/sdk/api/OAuthApi.java
+:000000 100644 0000000000000000000000000000000000000000 e21a135349d48a0a260f8f444c1ff55a814f94c6 A	src/com/jfinal/weixin/sdk/api/QrCodeApi.java
+:000000 100644 0000000000000000000000000000000000000000 de6514359636f0ac41d3d76003923afb9f86fbb4 A	src/com/jfinal/weixin/sdk/api/api_url.txt
+:000000 100644 0000000000000000000000000000000000000000 edcd50ae86482fafafbebc99e709638b9ff182df A	src/com/jfinal/weixin/sdk/jfinal/OutMessageRender.java
+:000000 100644 0000000000000000000000000000000000000000 b5015c027c836b9adb46df0478da9dcbb851dc3a A	src/com/jfinal/weixin/sdk/jfinal/SignatureCheckInterceptor.java
+:000000 100644 0000000000000000000000000000000000000000 fed2591be9006771e7a65eaae018f477ce3dbf34 A	src/com/jfinal/weixin/sdk/jfinal/WeixinController.java
+:000000 100644 0000000000000000000000000000000000000000 489e76a86dd7f96ee1f75353e5c7a4414a5a6f31 A	src/com/jfinal/weixin/sdk/kit/EncryptionKit.java
+:000000 100644 0000000000000000000000000000000000000000 bb2031e67314b55d847d4ea25c55763c0e17bc49 A	src/com/jfinal/weixin/sdk/kit/HttpKit.java
+:000000 100644 0000000000000000000000000000000000000000 a82ba390100797577641af1beb6c2a5b24a8cf77 A	src/com/jfinal/weixin/sdk/kit/IpKit.java
+:000000 100644 0000000000000000000000000000000000000000 c0a5dd35716704e16664862ca097bab5f7dc891e A	src/com/jfinal/weixin/sdk/kit/SignatureCheckKit.java
+:000000 100644 0000000000000000000000000000000000000000 54c54b389faa53c72d741eb037d03210d929b019 A	src/com/jfinal/weixin/sdk/message/InMessageParaser.java
+:000000 100644 0000000000000000000000000000000000000000 fedd50b1f768c78b3412839cab947378a2a1b182 A	src/com/jfinal/weixin/sdk/message/in/InImageMessage.java
+:000000 100644 0000000000000000000000000000000000000000 62047e9ea10a6630bd13d00a4e198357848c9f0b A	src/com/jfinal/weixin/sdk/message/in/InLinkMessage.java
+:000000 100644 0000000000000000000000000000000000000000 259c8a79c65541d791dad14f8bc032cb88550b99 A	src/com/jfinal/weixin/sdk/message/in/InLocationMessage.java
+:000000 100644 0000000000000000000000000000000000000000 d6d0bf742510e27952f5381d83705c4a4fe307c6 A	src/com/jfinal/weixin/sdk/message/in/InMessage.java
+:000000 100644 0000000000000000000000000000000000000000 48be086ff856b94fceaabfa63f5a4a0ae848317c A	src/com/jfinal/weixin/sdk/message/in/InTextMessage.java
+:000000 100644 0000000000000000000000000000000000000000 282837269f2bc969ba8b12c3e33b29772c632236 A	src/com/jfinal/weixin/sdk/message/in/InVideoMessage.java
+:000000 100644 0000000000000000000000000000000000000000 4149fbb769f90a56ea66b7037b56a5e03bfd7439 A	src/com/jfinal/weixin/sdk/message/in/InVoiceMessage.java
+:000000 100644 0000000000000000000000000000000000000000 ddc1a35f2d5ac70391a32a9e21d460d3c3b91737 A	src/com/jfinal/weixin/sdk/message/in/event/InFollowEvent.java
+:000000 100644 0000000000000000000000000000000000000000 9f545de6b4f9422aa477a84b9f378eb88edba5ea A	src/com/jfinal/weixin/sdk/message/in/event/InLocationEvent.java
+:000000 100644 0000000000000000000000000000000000000000 38d3e0120464549fe17e9b5717864938c834cee6 A	src/com/jfinal/weixin/sdk/message/in/event/InMenuEvent.java
+:000000 100644 0000000000000000000000000000000000000000 c787f3aefbf1c9ee5b457822254f6a18a0d1edd9 A	src/com/jfinal/weixin/sdk/message/in/event/InQrCodeEvent.java
+:000000 100644 0000000000000000000000000000000000000000 7a4b10b22559585cc0805d940095cd8e2cfa0c46 A	src/com/jfinal/weixin/sdk/message/in/speech_recognition/InSpeechRecognitionResults.java
+:000000 100644 0000000000000000000000000000000000000000 3ca606e1b55d0953a807283c33980837d47fe8b5 A	webapp/WEB-INF/a_little_config.txt
+:000000 100644 0000000000000000000000000000000000000000 0e8b7bb72afdf0b50f3757a61f00a5db979e4eef A	webapp/WEB-INF/web.xml
+commit 46aa84306b7ba7f9960b2e7985a48186f14632b5
+tree 2016834d6fef974f6d04a811afd12aee37549d90
+parent 
+author JFinal <jfinal@126.com> 2014-09-12 07:48:03 +0800
+committer JFinal <jfinal@126.com> 2014-09-12 07:48:03 +0800
+
+    Initial commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 0f182a0349c4925c57f4ffbd5802b536a3e2588b A	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 6359bb14ea816905a8d161eb6b4b1a7e75363232 A	LICENSE
+:000000 100644 0000000000000000000000000000000000000000 6952a4962e6b0594736795d122db8106a5a169b0 A	README.md

@@ -1,0 +1,15 @@
+Started on Nov 9, 2015 2:08:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 2fd0c11db541234050b54568ca14da90fde5403b (refs/remotes/origin/master)
+using GIT_SSH to set credentials 
+using .gitcredentials to set credentials
+ > git --version # timeout=10
+ > git init /tmp/hudson1435154925521873739tmp # timeout=10
+ > git config --local credential.username zj_ren8@163.com # timeout=10
+ > git config --local credential.helper store --file=/tmp/git2897098337364590722.credentials # timeout=10
+ > git -c core.askpass=true ls-remote -h https://github.com/JackFish/jfinal-weixin.git # timeout=10
+ > git config --local --remove-section credential # timeout=10
+Found 1 remote heads on https://github.com/JackFish/jfinal-weixin.git
+[poll] Latest remote head revision on refs/heads/master is: 66686bfca59320b98f0cef0e62bdb952180057d6
+Done. Took 1.6 sec
+Changes found
